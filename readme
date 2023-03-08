@@ -1,2051 +1,2050 @@
 DiceBIP39 - Table for creating a perfectly random bitcoin BIP39 seed using dice for entropy. Operates like diceware. Each word you first roll to determine odd or even. The next rolls for the word have to be 1 to 4. If a 5 or 6 is rolled you roll again. Keep rolling until odd/even,X,X,X,X,X is determined. Repeat until all your seed words are picked. Some bitcoin hardware signers will calculate the last word as it can not be random and is instead calculated from the previous seed words. Calculating the final word on a computer exposes your seed. Use a hardware wallet for safest operation. 
 
-odd	1,1,1,1,1       abandon
-odd	1,1,1,1,2       ability
-odd	1,1,1,1,3       able
-odd	1,1,1,1,4       about
-odd	1,1,1,2,1       above
-odd	1,1,1,2,2       absent
-odd	1,1,1,2,3       absorb
-odd	1,1,1,2,4       abstract
-odd	1,1,1,3,1       absurd
-odd	1,1,1,3,2       abuse
-odd	1,1,1,3,3       access
-odd	1,1,1,3,4       accident
-odd	1,1,1,4,1       account
-odd	1,1,1,4,2       accuse
-odd	1,1,1,4,3       achieve
-odd	1,1,1,4,4       acid
-odd	1,1,2,1,1       acoustic
-odd	1,1,2,1,2       acquire
-odd	1,1,2,1,3       across
-odd	1,1,2,1,4       act
-odd	1,1,2,2,1       action
-odd	1,1,2,2,2       actor
-odd	1,1,2,2,3       actress
-odd	1,1,2,2,4       actual
-odd	1,1,2,3,1       adapt
-odd	1,1,2,3,2       add
-odd	1,1,2,3,3       addict
-odd	1,1,2,3,4       address
-odd	1,1,2,4,1       adjust
-odd	1,1,2,4,2       admit
-odd	1,1,2,4,3       adult
-odd	1,1,2,4,4       advance
-odd	1,1,3,1,1       advice
-odd	1,1,3,1,2       aerobic
-odd	1,1,3,1,3       affair
-odd	1,1,3,1,4       afford
-odd	1,1,3,2,1       afraid
-odd	1,1,3,2,2       again
-odd	1,1,3,2,3       age
-odd	1,1,3,2,4       agent
-odd	1,1,3,3,1       agree
-odd	1,1,3,3,2       ahead
-odd	1,1,3,3,3       aim
-odd	1,1,3,3,4       air
-odd	1,1,3,4,1       airport
-odd	1,1,3,4,2       aisle
-odd	1,1,3,4,3       alarm
-odd	1,1,3,4,4       album
-odd	1,1,4,1,1       alcohol
-odd	1,1,4,1,2       alert
-odd	1,1,4,1,3       alien
-odd	1,1,4,1,4       all
-odd	1,1,4,2,1       alley
-odd	1,1,4,2,2       allow
-odd	1,1,4,2,3       almost
-odd	1,1,4,2,4       alone
-odd	1,1,4,3,1       alpha
-odd	1,1,4,3,2       already
-odd	1,1,4,3,3       also
-odd	1,1,4,3,4       alter
-odd	1,1,4,4,1       always
-odd	1,1,4,4,2       amateur
-odd	1,1,4,4,3       amazing
-odd	1,1,4,4,4       among
-odd	1,2,1,1,1       amount
-odd	1,2,1,1,2       amused
-odd	1,2,1,1,3       analyst
-odd	1,2,1,1,4       anchor
-odd	1,2,1,2,1       ancient
-odd	1,2,1,2,2       anger
-odd	1,2,1,2,3       angle
-odd	1,2,1,2,4       angry
-odd	1,2,1,3,1       animal
-odd	1,2,1,3,2       ankle
-odd	1,2,1,3,3       announce
-odd	1,2,1,3,4       annual
-odd	1,2,1,4,1       another
-odd	1,2,1,4,2       answer
-odd	1,2,1,4,3       antenna
-odd	1,2,1,4,4       antique
-odd	1,2,2,1,1       anxiety
-odd	1,2,2,1,2       any
-odd	1,2,2,1,3       apart
-odd	1,2,2,1,4       apology
-odd	1,2,2,2,1       appear
-odd	1,2,2,2,2       apple
-odd	1,2,2,2,3       approve
-odd	1,2,2,2,4       april
-odd	1,2,2,3,1       arch
-odd	1,2,2,3,2       arctic
-odd	1,2,2,3,3       area
-odd	1,2,2,3,4       arena
-odd	1,2,2,4,1       argue
-odd	1,2,2,4,2       arm
-odd	1,2,2,4,3       armed
-odd	1,2,2,4,4       armor
-odd	1,2,3,1,1       army
-odd	1,2,3,1,2       around
-odd	1,2,3,1,3       arrange
-odd	1,2,3,1,4       arrest
-odd	1,2,3,2,1       arrive
-odd	1,2,3,2,2       arrow
-odd	1,2,3,2,3       art
-odd	1,2,3,2,4       artefact
-odd	1,2,3,3,1       artist
-odd	1,2,3,3,2       artwork
-odd	1,2,3,3,3       ask
-odd	1,2,3,3,4       aspect
-odd	1,2,3,4,1       assault
-odd	1,2,3,4,2       asset
-odd	1,2,3,4,3       assist
-odd	1,2,3,4,4       assume
-odd	1,2,4,1,1       asthma
-odd	1,2,4,1,2       athlete
-odd	1,2,4,1,3       atom
-odd	1,2,4,1,4       attack
-odd	1,2,4,2,1       attend
-odd	1,2,4,2,2       attitude
-odd	1,2,4,2,3       attract
-odd	1,2,4,2,4       auction
-odd	1,2,4,3,1       audit
-odd	1,2,4,3,2       august
-odd	1,2,4,3,3       aunt
-odd	1,2,4,3,4       author
-odd	1,2,4,4,1       auto
-odd	1,2,4,4,2       autumn
-odd	1,2,4,4,3       average
-odd	1,2,4,4,4       avocado
-odd	1,3,1,1,1       avoid
-odd	1,3,1,1,2       awake
-odd	1,3,1,1,3       aware
-odd	1,3,1,1,4       away
-odd	1,3,1,2,1       awesome
-odd	1,3,1,2,2       awful
-odd	1,3,1,2,3       awkward
-odd	1,3,1,2,4       axis
-odd	1,3,1,3,1       baby
-odd	1,3,1,3,2       bachelor
-odd	1,3,1,3,3       bacon
-odd	1,3,1,3,4       badge
-odd	1,3,1,4,1       bag
-odd	1,3,1,4,2       balance
-odd	1,3,1,4,3       balcony
-odd	1,3,1,4,4       ball
-odd	1,3,2,1,1       bamboo
-odd	1,3,2,1,2       banana
-odd	1,3,2,1,3       banner
-odd	1,3,2,1,4       bar
-odd	1,3,2,2,1       barely
-odd	1,3,2,2,2       bargain
-odd	1,3,2,2,3       barrel
-odd	1,3,2,2,4       base
-odd	1,3,2,3,1       basic
-odd	1,3,2,3,2       basket
-odd	1,3,2,3,3       battle
-odd	1,3,2,3,4       beach
-odd	1,3,2,4,1       bean
-odd	1,3,2,4,2       beauty
-odd	1,3,2,4,3       because
-odd	1,3,2,4,4       become
-odd	1,3,3,1,1       beef
-odd	1,3,3,1,2       before
-odd	1,3,3,1,3       begin
-odd	1,3,3,1,4       behave
-odd	1,3,3,2,1       behind
-odd	1,3,3,2,2       believe
-odd	1,3,3,2,3       below
-odd	1,3,3,2,4       belt
-odd	1,3,3,3,1       bench
-odd	1,3,3,3,2       benefit
-odd	1,3,3,3,3       best
-odd	1,3,3,3,4       betray
-odd	1,3,3,4,1       better
-odd	1,3,3,4,2       between
-odd	1,3,3,4,3       beyond
-odd	1,3,3,4,4       bicycle
-odd	1,3,4,1,1       bid
-odd	1,3,4,1,2       bike
-odd	1,3,4,1,3       bind
-odd	1,3,4,1,4       biology
-odd	1,3,4,2,1       bird
-odd	1,3,4,2,2       birth
-odd	1,3,4,2,3       bitter
-odd	1,3,4,2,4       black
-odd	1,3,4,3,1       blade
-odd	1,3,4,3,2       blame
-odd	1,3,4,3,3       blanket
-odd	1,3,4,3,4       blast
-odd	1,3,4,4,1       bleak
-odd	1,3,4,4,2       bless
-odd	1,3,4,4,3       blind
-odd	1,3,4,4,4       blood
-odd	1,4,1,1,1       blossom
-odd	1,4,1,1,2       blouse
-odd	1,4,1,1,3       blue
-odd	1,4,1,1,4       blur
-odd	1,4,1,2,1       blush
-odd	1,4,1,2,2       board
-odd	1,4,1,2,3       boat
-odd	1,4,1,2,4       body
-odd	1,4,1,3,1       boil
-odd	1,4,1,3,2       bomb
-odd	1,4,1,3,3       bone
-odd	1,4,1,3,4       bonus
-odd	1,4,1,4,1       book
-odd	1,4,1,4,2       boost
-odd	1,4,1,4,3       border
-odd	1,4,1,4,4       boring
-odd	1,4,2,1,1       borrow
-odd	1,4,2,1,2       boss
-odd	1,4,2,1,3       bottom
-odd	1,4,2,1,4       bounce
-odd	1,4,2,2,1       box
-odd	1,4,2,2,2       boy
-odd	1,4,2,2,3       bracket
-odd	1,4,2,2,4       brain
-odd	1,4,2,3,1       brand
-odd	1,4,2,3,2       brass
-odd	1,4,2,3,3       brave
-odd	1,4,2,3,4       bread
-odd	1,4,2,4,1       breeze
-odd	1,4,2,4,2       brick
-odd	1,4,2,4,3       bridge
-odd	1,4,2,4,4       brief
-odd	1,4,3,1,1       bright
-odd	1,4,3,1,2       bring
-odd	1,4,3,1,3       brisk
-odd	1,4,3,1,4       broccoli
-odd	1,4,3,2,1       broken
-odd	1,4,3,2,2       bronze
-odd	1,4,3,2,3       broom
-odd	1,4,3,2,4       brother
-odd	1,4,3,3,1       brown
-odd	1,4,3,3,2       brush
-odd	1,4,3,3,3       bubble
-odd	1,4,3,3,4       buddy
-odd	1,4,3,4,1       budget
-odd	1,4,3,4,2       buffalo
-odd	1,4,3,4,3       build
-odd	1,4,3,4,4       bulb
-odd	1,4,4,1,1       bulk
-odd	1,4,4,1,2       bullet
-odd	1,4,4,1,3       bundle
-odd	1,4,4,1,4       bunker
-odd	1,4,4,2,1       burden
-odd	1,4,4,2,2       burger
-odd	1,4,4,2,3       burst
-odd	1,4,4,2,4       bus
-odd	1,4,4,3,1       business
-odd	1,4,4,3,2       busy
-odd	1,4,4,3,3       butter
-odd	1,4,4,3,4       buyer
-odd	1,4,4,4,1       buzz
-odd	1,4,4,4,2       cabbage
-odd	1,4,4,4,3       cabin
-odd	1,4,4,4,4       cable
-odd	2,1,1,1,1       cactus
-odd	2,1,1,1,2       cage
-odd	2,1,1,1,3       cake
-odd	2,1,1,1,4       call
-odd	2,1,1,2,1       calm
-odd	2,1,1,2,2       camera
-odd	2,1,1,2,3       camp
-odd	2,1,1,2,4       can
-odd	2,1,1,3,1       canal
-odd	2,1,1,3,2       cancel
-odd	2,1,1,3,3       candy
-odd	2,1,1,3,4       cannon
-odd	2,1,1,4,1       canoe
-odd	2,1,1,4,2       canvas
-odd	2,1,1,4,3       canyon
-odd	2,1,1,4,4       capable
-odd	2,1,2,1,1       capital
-odd	2,1,2,1,2       captain
-odd	2,1,2,1,3       car
-odd	2,1,2,1,4       carbon
-odd	2,1,2,2,1       card
-odd	2,1,2,2,2       cargo
-odd	2,1,2,2,3       carpet
-odd	2,1,2,2,4       carry
-odd	2,1,2,3,1       cart
-odd	2,1,2,3,2       case
-odd	2,1,2,3,3       cash
-odd	2,1,2,3,4       casino
-odd	2,1,2,4,1       castle
-odd	2,1,2,4,2       casual
-odd	2,1,2,4,3       cat
-odd	2,1,2,4,4       catalog
-odd	2,1,3,1,1       catch
-odd	2,1,3,1,2       category
-odd	2,1,3,1,3       cattle
-odd	2,1,3,1,4       caught
-odd	2,1,3,2,1       cause
-odd	2,1,3,2,2       caution
-odd	2,1,3,2,3       cave
-odd	2,1,3,2,4       ceiling
-odd	2,1,3,3,1       celery
-odd	2,1,3,3,2       cement
-odd	2,1,3,3,3       census
-odd	2,1,3,3,4       century
-odd	2,1,3,4,1       cereal
-odd	2,1,3,4,2       certain
-odd	2,1,3,4,3       chair
-odd	2,1,3,4,4       chalk
-odd	2,1,4,1,1       champion
-odd	2,1,4,1,2       change
-odd	2,1,4,1,3       chaos
-odd	2,1,4,1,4       chapter
-odd	2,1,4,2,1       charge
-odd	2,1,4,2,2       chase
-odd	2,1,4,2,3       chat
-odd	2,1,4,2,4       cheap
-odd	2,1,4,3,1       check
-odd	2,1,4,3,2       cheese
-odd	2,1,4,3,3       chef
-odd	2,1,4,3,4       cherry
-odd	2,1,4,4,1       chest
-odd	2,1,4,4,2       chicken
-odd	2,1,4,4,3       chief
-odd	2,1,4,4,4       child
-odd	2,2,1,1,1       chimney
-odd	2,2,1,1,2       choice
-odd	2,2,1,1,3       choose
-odd	2,2,1,1,4       chronic
-odd	2,2,1,2,1       chuckle
-odd	2,2,1,2,2       chunk
-odd	2,2,1,2,3       churn
-odd	2,2,1,2,4       cigar
-odd	2,2,1,3,1       cinnamon
-odd	2,2,1,3,2       circle
-odd	2,2,1,3,3       citizen
-odd	2,2,1,3,4       city
-odd	2,2,1,4,1       civil
-odd	2,2,1,4,2       claim
-odd	2,2,1,4,3       clap
-odd	2,2,1,4,4       clarify
-odd	2,2,2,1,1       claw
-odd	2,2,2,1,2       clay
-odd	2,2,2,1,3       clean
-odd	2,2,2,1,4       clerk
-odd	2,2,2,2,1       clever
-odd	2,2,2,2,2       click
-odd	2,2,2,2,3       client
-odd	2,2,2,2,4       cliff
-odd	2,2,2,3,1       climb
-odd	2,2,2,3,2       clinic
-odd	2,2,2,3,3       clip
-odd	2,2,2,3,4       clock
-odd	2,2,2,4,1       clog
-odd	2,2,2,4,2       close
-odd	2,2,2,4,3       cloth
-odd	2,2,2,4,4       cloud
-odd	2,2,3,1,1       clown
-odd	2,2,3,1,2       club
-odd	2,2,3,1,3       clump
-odd	2,2,3,1,4       cluster
-odd	2,2,3,2,1       clutch
-odd	2,2,3,2,2       coach
-odd	2,2,3,2,3       coast
-odd	2,2,3,2,4       coconut
-odd	2,2,3,3,1       code
-odd	2,2,3,3,2       coffee
-odd	2,2,3,3,3       coil
-odd	2,2,3,3,4       coin
-odd	2,2,3,4,1       collect
-odd	2,2,3,4,2       color
-odd	2,2,3,4,3       column
-odd	2,2,3,4,4       combine
-odd	2,2,4,1,1       come
-odd	2,2,4,1,2       comfort
-odd	2,2,4,1,3       comic
-odd	2,2,4,1,4       common
-odd	2,2,4,2,1       company
-odd	2,2,4,2,2       concert
-odd	2,2,4,2,3       conduct
-odd	2,2,4,2,4       confirm
-odd	2,2,4,3,1       congress
-odd	2,2,4,3,2       connect
-odd	2,2,4,3,3       consider
-odd	2,2,4,3,4       control
-odd	2,2,4,4,1       convince
-odd	2,2,4,4,2       cook
-odd	2,2,4,4,3       cool
-odd	2,2,4,4,4       copper
-odd	2,3,1,1,1       copy
-odd	2,3,1,1,2       coral
-odd	2,3,1,1,3       core
-odd	2,3,1,1,4       corn
-odd	2,3,1,2,1       correct
-odd	2,3,1,2,2       cost
-odd	2,3,1,2,3       cotton
-odd	2,3,1,2,4       couch
-odd	2,3,1,3,1       country
-odd	2,3,1,3,2       couple
-odd	2,3,1,3,3       course
-odd	2,3,1,3,4       cousin
-odd	2,3,1,4,1       cover
-odd	2,3,1,4,2       coyote
-odd	2,3,1,4,3       crack
-odd	2,3,1,4,4       cradle
-odd	2,3,2,1,1       craft
-odd	2,3,2,1,2       cram
-odd	2,3,2,1,3       crane
-odd	2,3,2,1,4       crash
-odd	2,3,2,2,1       crater
-odd	2,3,2,2,2       crawl
-odd	2,3,2,2,3       crazy
-odd	2,3,2,2,4       cream
-odd	2,3,2,3,1       credit
-odd	2,3,2,3,2       creek
-odd	2,3,2,3,3       crew
-odd	2,3,2,3,4       cricket
-odd	2,3,2,4,1       crime
-odd	2,3,2,4,2       crisp
-odd	2,3,2,4,3       critic
-odd	2,3,2,4,4       crop
-odd	2,3,3,1,1       cross
-odd	2,3,3,1,2       crouch
-odd	2,3,3,1,3       crowd
-odd	2,3,3,1,4       crucial
-odd	2,3,3,2,1       cruel
-odd	2,3,3,2,2       cruise
-odd	2,3,3,2,3       crumble
-odd	2,3,3,2,4       crunch
-odd	2,3,3,3,1       crush
-odd	2,3,3,3,2       cry
-odd	2,3,3,3,3       crystal
-odd	2,3,3,3,4       cube
-odd	2,3,3,4,1       culture
-odd	2,3,3,4,2       cup
-odd	2,3,3,4,3       cupboard
-odd	2,3,3,4,4       curious
-odd	2,3,4,1,1       current
-odd	2,3,4,1,2       curtain
-odd	2,3,4,1,3       curve
-odd	2,3,4,1,4       cushion
-odd	2,3,4,2,1       custom
-odd	2,3,4,2,2       cute
-odd	2,3,4,2,3       cycle
-odd	2,3,4,2,4       dad
-odd	2,3,4,3,1       damage
-odd	2,3,4,3,2       damp
-odd	2,3,4,3,3       dance
-odd	2,3,4,3,4       danger
-odd	2,3,4,4,1       daring
-odd	2,3,4,4,2       dash
-odd	2,3,4,4,3       daughter
-odd	2,3,4,4,4       dawn
-odd	2,4,1,1,1       day
-odd	2,4,1,1,2       deal
-odd	2,4,1,1,3       debate
-odd	2,4,1,1,4       debris
-odd	2,4,1,2,1       decade
-odd	2,4,1,2,2       december
-odd	2,4,1,2,3       decide
-odd	2,4,1,2,4       decline
-odd	2,4,1,3,1       decorate
-odd	2,4,1,3,2       decrease
-odd	2,4,1,3,3       deer
-odd	2,4,1,3,4       defense
-odd	2,4,1,4,1       define
-odd	2,4,1,4,2       defy
-odd	2,4,1,4,3       degree
-odd	2,4,1,4,4       delay
-odd	2,4,2,1,1       deliver
-odd	2,4,2,1,2       demand
-odd	2,4,2,1,3       demise
-odd	2,4,2,1,4       denial
-odd	2,4,2,2,1       dentist
-odd	2,4,2,2,2       deny
-odd	2,4,2,2,3       depart
-odd	2,4,2,2,4       depend
-odd	2,4,2,3,1       deposit
-odd	2,4,2,3,2       depth
-odd	2,4,2,3,3       deputy
-odd	2,4,2,3,4       derive
-odd	2,4,2,4,1       describe
-odd	2,4,2,4,2       desert
-odd	2,4,2,4,3       design
-odd	2,4,2,4,4       desk
-odd	2,4,3,1,1       despair
-odd	2,4,3,1,2       destroy
-odd	2,4,3,1,3       detail
-odd	2,4,3,1,4       detect
-odd	2,4,3,2,1       develop
-odd	2,4,3,2,2       device
-odd	2,4,3,2,3       devote
-odd	2,4,3,2,4       diagram
-odd	2,4,3,3,1       dial
-odd	2,4,3,3,2       diamond
-odd	2,4,3,3,3       diary
-odd	2,4,3,3,4       dice
-odd	2,4,3,4,1       diesel
-odd	2,4,3,4,2       diet
-odd	2,4,3,4,3       differ
-odd	2,4,3,4,4       digital
-odd	2,4,4,1,1       dignity
-odd	2,4,4,1,2       dilemma
-odd	2,4,4,1,3       dinner
-odd	2,4,4,1,4       dinosaur
-odd	2,4,4,2,1       direct
-odd	2,4,4,2,2       dirt
-odd	2,4,4,2,3       disagree
-odd	2,4,4,2,4       discover
-odd	2,4,4,3,1       disease
-odd	2,4,4,3,2       dish
-odd	2,4,4,3,3       dismiss
-odd	2,4,4,3,4       disorder
-odd	2,4,4,4,1       display
-odd	2,4,4,4,2       distance
-odd	2,4,4,4,3       divert
-odd	2,4,4,4,4       divide
-odd	3,1,1,1,1       divorce
-odd	3,1,1,1,2       dizzy
-odd	3,1,1,1,3       doctor
-odd	3,1,1,1,4       document
-odd	3,1,1,2,1       dog
-odd	3,1,1,2,2       doll
-odd	3,1,1,2,3       dolphin
-odd	3,1,1,2,4       domain
-odd	3,1,1,3,1       donate
-odd	3,1,1,3,2       donkey
-odd	3,1,1,3,3       donor
-odd	3,1,1,3,4       door
-odd	3,1,1,4,1       dose
-odd	3,1,1,4,2       double
-odd	3,1,1,4,3       dove
-odd	3,1,1,4,4       draft
-odd	3,1,2,1,1       dragon
-odd	3,1,2,1,2       drama
-odd	3,1,2,1,3       drastic
-odd	3,1,2,1,4       draw
-odd	3,1,2,2,1       dream
-odd	3,1,2,2,2       dress
-odd	3,1,2,2,3       drift
-odd	3,1,2,2,4       drill
-odd	3,1,2,3,1       drink
-odd	3,1,2,3,2       drip
-odd	3,1,2,3,3       drive
-odd	3,1,2,3,4       drop
-odd	3,1,2,4,1       drum
-odd	3,1,2,4,2       dry
-odd	3,1,2,4,3       duck
-odd	3,1,2,4,4       dumb
-odd	3,1,3,1,1       dune
-odd	3,1,3,1,2       during
-odd	3,1,3,1,3       dust
-odd	3,1,3,1,4       dutch
-odd	3,1,3,2,1       duty
-odd	3,1,3,2,2       dwarf
-odd	3,1,3,2,3       dynamic
-odd	3,1,3,2,4       eager
-odd	3,1,3,3,1       eagle
-odd	3,1,3,3,2       early
-odd	3,1,3,3,3       earn
-odd	3,1,3,3,4       earth
-odd	3,1,3,4,1       easily
-odd	3,1,3,4,2       east
-odd	3,1,3,4,3       easy
-odd	3,1,3,4,4       echo
-odd	3,1,4,1,1       ecology
-odd	3,1,4,1,2       economy
-odd	3,1,4,1,3       edge
-odd	3,1,4,1,4       edit
-odd	3,1,4,2,1       educate
-odd	3,1,4,2,2       effort
-odd	3,1,4,2,3       egg
-odd	3,1,4,2,4       eight
-odd	3,1,4,3,1       either
-odd	3,1,4,3,2       elbow
-odd	3,1,4,3,3       elder
-odd	3,1,4,3,4       electric
-odd	3,1,4,4,1       elegant
-odd	3,1,4,4,2       element
-odd	3,1,4,4,3       elephant
-odd	3,1,4,4,4       elevator
-odd	3,2,1,1,1       elite
-odd	3,2,1,1,2       else
-odd	3,2,1,1,3       embark
-odd	3,2,1,1,4       embody
-odd	3,2,1,2,1       embrace
-odd	3,2,1,2,2       emerge
-odd	3,2,1,2,3       emotion
-odd	3,2,1,2,4       employ
-odd	3,2,1,3,1       empower
-odd	3,2,1,3,2       empty
-odd	3,2,1,3,3       enable
-odd	3,2,1,3,4       enact
-odd	3,2,1,4,1       end
-odd	3,2,1,4,2       endless
-odd	3,2,1,4,3       endorse
-odd	3,2,1,4,4       enemy
-odd	3,2,2,1,1       energy
-odd	3,2,2,1,2       enforce
-odd	3,2,2,1,3       engage
-odd	3,2,2,1,4       engine
-odd	3,2,2,2,1       enhance
-odd	3,2,2,2,2       enjoy
-odd	3,2,2,2,3       enlist
-odd	3,2,2,2,4       enough
-odd	3,2,2,3,1       enrich
-odd	3,2,2,3,2       enroll
-odd	3,2,2,3,3       ensure
-odd	3,2,2,3,4       enter
-odd	3,2,2,4,1       entire
-odd	3,2,2,4,2       entry
-odd	3,2,2,4,3       envelope
-odd	3,2,2,4,4       episode
-odd	3,2,3,1,1       equal
-odd	3,2,3,1,2       equip
-odd	3,2,3,1,3       era
-odd	3,2,3,1,4       erase
-odd	3,2,3,2,1       erode
-odd	3,2,3,2,2       erosion
-odd	3,2,3,2,3       error
-odd	3,2,3,2,4       erupt
-odd	3,2,3,3,1       escape
-odd	3,2,3,3,2       essay
-odd	3,2,3,3,3       essence
-odd	3,2,3,3,4       estate
-odd	3,2,3,4,1       eternal
-odd	3,2,3,4,2       ethics
-odd	3,2,3,4,3       evidence
-odd	3,2,3,4,4       evil
-odd	3,2,4,1,1       evoke
-odd	3,2,4,1,2       evolve
-odd	3,2,4,1,3       exact
-odd	3,2,4,1,4       example
-odd	3,2,4,2,1       excess
-odd	3,2,4,2,2       exchange
-odd	3,2,4,2,3       excite
-odd	3,2,4,2,4       exclude
-odd	3,2,4,3,1       excuse
-odd	3,2,4,3,2       execute
-odd	3,2,4,3,3       exercise
-odd	3,2,4,3,4       exhaust
-odd	3,2,4,4,1       exhibit
-odd	3,2,4,4,2       exile
-odd	3,2,4,4,3       exist
-odd	3,2,4,4,4       exit
-odd	3,3,1,1,1       exotic
-odd	3,3,1,1,2       expand
-odd	3,3,1,1,3       expect
-odd	3,3,1,1,4       expire
-odd	3,3,1,2,1       explain
-odd	3,3,1,2,2       expose
-odd	3,3,1,2,3       express
-odd	3,3,1,2,4       extend
-odd	3,3,1,3,1       extra
-odd	3,3,1,3,2       eye
-odd	3,3,1,3,3       eyebrow
-odd	3,3,1,3,4       fabric
-odd	3,3,1,4,1       face
-odd	3,3,1,4,2       faculty
-odd	3,3,1,4,3       fade
-odd	3,3,1,4,4       faint
-odd	3,3,2,1,1       faith
-odd	3,3,2,1,2       fall
-odd	3,3,2,1,3       false
-odd	3,3,2,1,4       fame
-odd	3,3,2,2,1       family
-odd	3,3,2,2,2       famous
-odd	3,3,2,2,3       fan
-odd	3,3,2,2,4       fancy
-odd	3,3,2,3,1       fantasy
-odd	3,3,2,3,2       farm
-odd	3,3,2,3,3       fashion
-odd	3,3,2,3,4       fat
-odd	3,3,2,4,1       fatal
-odd	3,3,2,4,2       father
-odd	3,3,2,4,3       fatigue
-odd	3,3,2,4,4       fault
-odd	3,3,3,1,1       favorite
-odd	3,3,3,1,2       feature
-odd	3,3,3,1,3       february
-odd	3,3,3,1,4       federal
-odd	3,3,3,2,1       fee
-odd	3,3,3,2,2       feed
-odd	3,3,3,2,3       feel
-odd	3,3,3,2,4       female
-odd	3,3,3,3,1       fence
-odd	3,3,3,3,2       festival
-odd	3,3,3,3,3       fetch
-odd	3,3,3,3,4       fever
-odd	3,3,3,4,1       few
-odd	3,3,3,4,2       fiber
-odd	3,3,3,4,3       fiction
-odd	3,3,3,4,4       field
-odd	3,3,4,1,1       figure
-odd	3,3,4,1,2       file
-odd	3,3,4,1,3       film
-odd	3,3,4,1,4       filter
-odd	3,3,4,2,1       final
-odd	3,3,4,2,2       find
-odd	3,3,4,2,3       fine
-odd	3,3,4,2,4       finger
-odd	3,3,4,3,1       finish
-odd	3,3,4,3,2       fire
-odd	3,3,4,3,3       firm
-odd	3,3,4,3,4       first
-odd	3,3,4,4,1       fiscal
-odd	3,3,4,4,2       fish
-odd	3,3,4,4,3       fit
-odd	3,3,4,4,4       fitness
-odd	3,4,1,1,1       fix
-odd	3,4,1,1,2       flag
-odd	3,4,1,1,3       flame
-odd	3,4,1,1,4       flash
-odd	3,4,1,2,1       flat
-odd	3,4,1,2,2       flavor
-odd	3,4,1,2,3       flee
-odd	3,4,1,2,4       flight
-odd	3,4,1,3,1       flip
-odd	3,4,1,3,2       float
-odd	3,4,1,3,3       flock
-odd	3,4,1,3,4       floor
-odd	3,4,1,4,1       flower
-odd	3,4,1,4,2       fluid
-odd	3,4,1,4,3       flush
-odd	3,4,1,4,4       fly
-odd	3,4,2,1,1       foam
-odd	3,4,2,1,2       focus
-odd	3,4,2,1,3       fog
-odd	3,4,2,1,4       foil
-odd	3,4,2,2,1       fold
-odd	3,4,2,2,2       follow
-odd	3,4,2,2,3       food
-odd	3,4,2,2,4       foot
-odd	3,4,2,3,1       force
-odd	3,4,2,3,2       forest
-odd	3,4,2,3,3       forget
-odd	3,4,2,3,4       fork
-odd	3,4,2,4,1       fortune
-odd	3,4,2,4,2       forum
-odd	3,4,2,4,3       forward
-odd	3,4,2,4,4       fossil
-odd	3,4,3,1,1       foster
-odd	3,4,3,1,2       found
-odd	3,4,3,1,3       fox
-odd	3,4,3,1,4       fragile
-odd	3,4,3,2,1       frame
-odd	3,4,3,2,2       frequent
-odd	3,4,3,2,3       fresh
-odd	3,4,3,2,4       friend
-odd	3,4,3,3,1       fringe
-odd	3,4,3,3,2       frog
-odd	3,4,3,3,3       front
-odd	3,4,3,3,4       frost
-odd	3,4,3,4,1       frown
-odd	3,4,3,4,2       frozen
-odd	3,4,3,4,3       fruit
-odd	3,4,3,4,4       fuel
-odd	3,4,4,1,1       fun
-odd	3,4,4,1,2       funny
-odd	3,4,4,1,3       furnace
-odd	3,4,4,1,4       fury
-odd	3,4,4,2,1       future
-odd	3,4,4,2,2       gadget
-odd	3,4,4,2,3       gain
-odd	3,4,4,2,4       galaxy
-odd	3,4,4,3,1       gallery
-odd	3,4,4,3,2       game
-odd	3,4,4,3,3       gap
-odd	3,4,4,3,4       garage
-odd	3,4,4,4,1       garbage
-odd	3,4,4,4,2       garden
-odd	3,4,4,4,3       garlic
-odd	3,4,4,4,4       garment
-odd	4,1,1,1,1       gas
-odd	4,1,1,1,2       gasp
-odd	4,1,1,1,3       gate
-odd	4,1,1,1,4       gather
-odd	4,1,1,2,1       gauge
-odd	4,1,1,2,2       gaze
-odd	4,1,1,2,3       general
-odd	4,1,1,2,4       genius
-odd	4,1,1,3,1       genre
-odd	4,1,1,3,2       gentle
-odd	4,1,1,3,3       genuine
-odd	4,1,1,3,4       gesture
-odd	4,1,1,4,1       ghost
-odd	4,1,1,4,2       giant
-odd	4,1,1,4,3       gift
-odd	4,1,1,4,4       giggle
-odd	4,1,2,1,1       ginger
-odd	4,1,2,1,2       giraffe
-odd	4,1,2,1,3       girl
-odd	4,1,2,1,4       give
-odd	4,1,2,2,1       glad
-odd	4,1,2,2,2       glance
-odd	4,1,2,2,3       glare
-odd	4,1,2,2,4       glass
-odd	4,1,2,3,1       glide
-odd	4,1,2,3,2       glimpse
-odd	4,1,2,3,3       globe
-odd	4,1,2,3,4       gloom
-odd	4,1,2,4,1       glory
-odd	4,1,2,4,2       glove
-odd	4,1,2,4,3       glow
-odd	4,1,2,4,4       glue
-odd	4,1,3,1,1       goat
-odd	4,1,3,1,2       goddess
-odd	4,1,3,1,3       gold
-odd	4,1,3,1,4       good
-odd	4,1,3,2,1       goose
-odd	4,1,3,2,2       gorilla
-odd	4,1,3,2,3       gospel
-odd	4,1,3,2,4       gossip
-odd	4,1,3,3,1       govern
-odd	4,1,3,3,2       gown
-odd	4,1,3,3,3       grab
-odd	4,1,3,3,4       grace
-odd	4,1,3,4,1       grain
-odd	4,1,3,4,2       grant
-odd	4,1,3,4,3       grape
-odd	4,1,3,4,4       grass
-odd	4,1,4,1,1       gravity
-odd	4,1,4,1,2       great
-odd	4,1,4,1,3       green
-odd	4,1,4,1,4       grid
-odd	4,1,4,2,1       grief
-odd	4,1,4,2,2       grit
-odd	4,1,4,2,3       grocery
-odd	4,1,4,2,4       group
-odd	4,1,4,3,1       grow
-odd	4,1,4,3,2       grunt
-odd	4,1,4,3,3       guard
-odd	4,1,4,3,4       guess
-odd	4,1,4,4,1       guide
-odd	4,1,4,4,2       guilt
-odd	4,1,4,4,3       guitar
-odd	4,1,4,4,4       gun
-odd	4,2,1,1,1       gym
-odd	4,2,1,1,2       habit
-odd	4,2,1,1,3       hair
-odd	4,2,1,1,4       half
-odd	4,2,1,2,1       hammer
-odd	4,2,1,2,2       hamster
-odd	4,2,1,2,3       hand
-odd	4,2,1,2,4       happy
-odd	4,2,1,3,1       harbor
-odd	4,2,1,3,2       hard
-odd	4,2,1,3,3       harsh
-odd	4,2,1,3,4       harvest
-odd	4,2,1,4,1       hat
-odd	4,2,1,4,2       have
-odd	4,2,1,4,3       hawk
-odd	4,2,1,4,4       hazard
-odd	4,2,2,1,1       head
-odd	4,2,2,1,2       health
-odd	4,2,2,1,3       heart
-odd	4,2,2,1,4       heavy
-odd	4,2,2,2,1       hedgehog
-odd	4,2,2,2,2       height
-odd	4,2,2,2,3       hello
-odd	4,2,2,2,4       helmet
-odd	4,2,2,3,1       help
-odd	4,2,2,3,2       hen
-odd	4,2,2,3,3       hero
-odd	4,2,2,3,4       hidden
-odd	4,2,2,4,1       high
-odd	4,2,2,4,2       hill
-odd	4,2,2,4,3       hint
-odd	4,2,2,4,4       hip
-odd	4,2,3,1,1       hire
-odd	4,2,3,1,2       history
-odd	4,2,3,1,3       hobby
-odd	4,2,3,1,4       hockey
-odd	4,2,3,2,1       hold
-odd	4,2,3,2,2       hole
-odd	4,2,3,2,3       holiday
-odd	4,2,3,2,4       hollow
-odd	4,2,3,3,1       home
-odd	4,2,3,3,2       honey
-odd	4,2,3,3,3       hood
-odd	4,2,3,3,4       hope
-odd	4,2,3,4,1       horn
-odd	4,2,3,4,2       horror
-odd	4,2,3,4,3       horse
-odd	4,2,3,4,4       hospital
-odd	4,2,4,1,1       host
-odd	4,2,4,1,2       hotel
-odd	4,2,4,1,3       hour
-odd	4,2,4,1,4       hover
-odd	4,2,4,2,1       hub
-odd	4,2,4,2,2       huge
-odd	4,2,4,2,3       human
-odd	4,2,4,2,4       humble
-odd	4,2,4,3,1       humor
-odd	4,2,4,3,2       hundred
-odd	4,2,4,3,3       hungry
-odd	4,2,4,3,4       hunt
-odd	4,2,4,4,1       hurdle
-odd	4,2,4,4,2       hurry
-odd	4,2,4,4,3       hurt
-odd	4,2,4,4,4       husband
-odd	4,3,1,1,1       hybrid
-odd	4,3,1,1,2       ice
-odd	4,3,1,1,3       icon
-odd	4,3,1,1,4       idea
-odd	4,3,1,2,1       identify
-odd	4,3,1,2,2       idle
-odd	4,3,1,2,3       ignore
-odd	4,3,1,2,4       ill
-odd	4,3,1,3,1       illegal
-odd	4,3,1,3,2       illness
-odd	4,3,1,3,3       image
-odd	4,3,1,3,4       imitate
-odd	4,3,1,4,1       immense
-odd	4,3,1,4,2       immune
-odd	4,3,1,4,3       impact
-odd	4,3,1,4,4       impose
-odd	4,3,2,1,1       improve
-odd	4,3,2,1,2       impulse
-odd	4,3,2,1,3       inch
-odd	4,3,2,1,4       include
-odd	4,3,2,2,1       income
-odd	4,3,2,2,2       increase
-odd	4,3,2,2,3       index
-odd	4,3,2,2,4       indicate
-odd	4,3,2,3,1       indoor
-odd	4,3,2,3,2       industry
-odd	4,3,2,3,3       infant
-odd	4,3,2,3,4       inflict
-odd	4,3,2,4,1       inform
-odd	4,3,2,4,2       inhale
-odd	4,3,2,4,3       inherit
-odd	4,3,2,4,4       initial
-odd	4,3,3,1,1       inject
-odd	4,3,3,1,2       injury
-odd	4,3,3,1,3       inmate
-odd	4,3,3,1,4       inner
-odd	4,3,3,2,1       innocent
-odd	4,3,3,2,2       input
-odd	4,3,3,2,3       inquiry
-odd	4,3,3,2,4       insane
-odd	4,3,3,3,1       insect
-odd	4,3,3,3,2       inside
-odd	4,3,3,3,3       inspire
-odd	4,3,3,3,4       install
-odd	4,3,3,4,1       intact
-odd	4,3,3,4,2       interest
-odd	4,3,3,4,3       into
-odd	4,3,3,4,4       invest
-odd	4,3,4,1,1       invite
-odd	4,3,4,1,2       involve
-odd	4,3,4,1,3       iron
-odd	4,3,4,1,4       island
-odd	4,3,4,2,1       isolate
-odd	4,3,4,2,2       issue
-odd	4,3,4,2,3       item
-odd	4,3,4,2,4       ivory
-odd	4,3,4,3,1       jacket
-odd	4,3,4,3,2       jaguar
-odd	4,3,4,3,3       jar
-odd	4,3,4,3,4       jazz
-odd	4,3,4,4,1       jealous
-odd	4,3,4,4,2       jeans
-odd	4,3,4,4,3       jelly
-odd	4,3,4,4,4       jewel
-odd	4,4,1,1,1       job
-odd	4,4,1,1,2       join
-odd	4,4,1,1,3       joke
-odd	4,4,1,1,4       journey
-odd	4,4,1,2,1       joy
-odd	4,4,1,2,2       judge
-odd	4,4,1,2,3       juice
-odd	4,4,1,2,4       jump
-odd	4,4,1,3,1       jungle
-odd	4,4,1,3,2       junior
-odd	4,4,1,3,3       junk
-odd	4,4,1,3,4       just
-odd	4,4,1,4,1       kangaroo
-odd	4,4,1,4,2       keen
-odd	4,4,1,4,3       keep
-odd	4,4,1,4,4       ketchup
-odd	4,4,2,1,1       key
-odd	4,4,2,1,2       kick
-odd	4,4,2,1,3       kid
-odd	4,4,2,1,4       kidney
-odd	4,4,2,2,1       kind
-odd	4,4,2,2,2       kingdom
-odd	4,4,2,2,3       kiss
-odd	4,4,2,2,4       kit
-odd	4,4,2,3,1       kitchen
-odd	4,4,2,3,2       kite
-odd	4,4,2,3,3       kitten
-odd	4,4,2,3,4       kiwi
-odd	4,4,2,4,1       knee
-odd	4,4,2,4,2       knife
-odd	4,4,2,4,3       knock
-odd	4,4,2,4,4       know
-odd	4,4,3,1,1       lab
-odd	4,4,3,1,2       label
-odd	4,4,3,1,3       labor
-odd	4,4,3,1,4       ladder
-odd	4,4,3,2,1       lady
-odd	4,4,3,2,2       lake
-odd	4,4,3,2,3       lamp
-odd	4,4,3,2,4       language
-odd	4,4,3,3,1       laptop
-odd	4,4,3,3,2       large
-odd	4,4,3,3,3       later
-odd	4,4,3,3,4       latin
-odd	4,4,3,4,1       laugh
-odd	4,4,3,4,2       laundry
-odd	4,4,3,4,3       lava
-odd	4,4,3,4,4       law
-odd	4,4,4,1,1       lawn
-odd	4,4,4,1,2       lawsuit
-odd	4,4,4,1,3       layer
-odd	4,4,4,1,4       lazy
-odd	4,4,4,2,1       leader
-odd	4,4,4,2,2       leaf
-odd	4,4,4,2,3       learn
-odd	4,4,4,2,4       leave
-odd	4,4,4,3,1       lecture
-odd	4,4,4,3,2       left
-odd	4,4,4,3,3       leg
-odd	4,4,4,3,4       legal
-odd	4,4,4,4,1       legend
-odd	4,4,4,4,2       leisure
-odd	4,4,4,4,3       lemon
-odd	4,4,4,4,4       lend
-even	1,1,1,1,1       length
-even	1,1,1,1,2       lens
-even	1,1,1,1,3       leopard
-even	1,1,1,1,4       lesson
-even	1,1,1,2,1       letter
-even	1,1,1,2,2       level
-even	1,1,1,2,3       liar
-even	1,1,1,2,4       liberty
-even	1,1,1,3,1       library
-even	1,1,1,3,2       license
-even	1,1,1,3,3       life
-even	1,1,1,3,4       lift
-even	1,1,1,4,1       light
-even	1,1,1,4,2       like
-even	1,1,1,4,3       limb
-even	1,1,1,4,4       limit
-even	1,1,2,1,1       link
-even	1,1,2,1,2       lion
-even	1,1,2,1,3       liquid
-even	1,1,2,1,4       list
-even	1,1,2,2,1       little
-even	1,1,2,2,2       live
-even	1,1,2,2,3       lizard
-even	1,1,2,2,4       load
-even	1,1,2,3,1       loan
-even	1,1,2,3,2       lobster
-even	1,1,2,3,3       local
-even	1,1,2,3,4       lock
-even	1,1,2,4,1       logic
-even	1,1,2,4,2       lonely
-even	1,1,2,4,3       long
-even	1,1,2,4,4       loop
-even	1,1,3,1,1       lottery
-even	1,1,3,1,2       loud
-even	1,1,3,1,3       lounge
-even	1,1,3,1,4       love
-even	1,1,3,2,1       loyal
-even	1,1,3,2,2       lucky
-even	1,1,3,2,3       luggage
-even	1,1,3,2,4       lumber
-even	1,1,3,3,1       lunar
-even	1,1,3,3,2       lunch
-even	1,1,3,3,3       luxury
-even	1,1,3,3,4       lyrics
-even	1,1,3,4,1       machine
-even	1,1,3,4,2       mad
-even	1,1,3,4,3       magic
-even	1,1,3,4,4       magnet
-even	1,1,4,1,1       maid
-even	1,1,4,1,2       mail
-even	1,1,4,1,3       main
-even	1,1,4,1,4       major
-even	1,1,4,2,1       make
-even	1,1,4,2,2       mammal
-even	1,1,4,2,3       man
-even	1,1,4,2,4       manage
-even	1,1,4,3,1       mandate
-even	1,1,4,3,2       mango
-even	1,1,4,3,3       mansion
-even	1,1,4,3,4       manual
-even	1,1,4,4,1       maple
-even	1,1,4,4,2       marble
-even	1,1,4,4,3       march
-even	1,1,4,4,4       margin
-even	1,2,1,1,1       marine
-even	1,2,1,1,2       market
-even	1,2,1,1,3       marriage
-even	1,2,1,1,4       mask
-even	1,2,1,2,1       mass
-even	1,2,1,2,2       master
-even	1,2,1,2,3       match
-even	1,2,1,2,4       material
-even	1,2,1,3,1       math
-even	1,2,1,3,2       matrix
-even	1,2,1,3,3       matter
-even	1,2,1,3,4       maximum
-even	1,2,1,4,1       maze
-even	1,2,1,4,2       meadow
-even	1,2,1,4,3       mean
-even	1,2,1,4,4       measure
-even	1,2,2,1,1       meat
-even	1,2,2,1,2       mechanic
-even	1,2,2,1,3       medal
-even	1,2,2,1,4       media
-even	1,2,2,2,1       melody
-even	1,2,2,2,2       melt
-even	1,2,2,2,3       member
-even	1,2,2,2,4       memory
-even	1,2,2,3,1       mention
-even	1,2,2,3,2       menu
-even	1,2,2,3,3       mercy
-even	1,2,2,3,4       merge
-even	1,2,2,4,1       merit
-even	1,2,2,4,2       merry
-even	1,2,2,4,3       mesh
-even	1,2,2,4,4       message
-even	1,2,3,1,1       metal
-even	1,2,3,1,2       method
-even	1,2,3,1,3       middle
-even	1,2,3,1,4       midnight
-even	1,2,3,2,1       milk
-even	1,2,3,2,2       million
-even	1,2,3,2,3       mimic
-even	1,2,3,2,4       mind
-even	1,2,3,3,1       minimum
-even	1,2,3,3,2       minor
-even	1,2,3,3,3       minute
-even	1,2,3,3,4       miracle
-even	1,2,3,4,1       mirror
-even	1,2,3,4,2       misery
-even	1,2,3,4,3       miss
-even	1,2,3,4,4       mistake
-even	1,2,4,1,1       mix
-even	1,2,4,1,2       mixed
-even	1,2,4,1,3       mixture
-even	1,2,4,1,4       mobile
-even	1,2,4,2,1       model
-even	1,2,4,2,2       modify
-even	1,2,4,2,3       mom
-even	1,2,4,2,4       moment
-even	1,2,4,3,1       monitor
-even	1,2,4,3,2       monkey
-even	1,2,4,3,3       monster
-even	1,2,4,3,4       month
-even	1,2,4,4,1       moon
-even	1,2,4,4,2       moral
-even	1,2,4,4,3       more
-even	1,2,4,4,4       morning
-even	1,3,1,1,1       mosquito
-even	1,3,1,1,2       mother
-even	1,3,1,1,3       motion
-even	1,3,1,1,4       motor
-even	1,3,1,2,1       mountain
-even	1,3,1,2,2       mouse
-even	1,3,1,2,3       move
-even	1,3,1,2,4       movie
-even	1,3,1,3,1       much
-even	1,3,1,3,2       muffin
-even	1,3,1,3,3       mule
-even	1,3,1,3,4       multiply
-even	1,3,1,4,1       muscle
-even	1,3,1,4,2       museum
-even	1,3,1,4,3       mushroom
-even	1,3,1,4,4       music
-even	1,3,2,1,1       must
-even	1,3,2,1,2       mutual
-even	1,3,2,1,3       myself
-even	1,3,2,1,4       mystery
-even	1,3,2,2,1       myth
-even	1,3,2,2,2       naive
-even	1,3,2,2,3       name
-even	1,3,2,2,4       napkin
-even	1,3,2,3,1       narrow
-even	1,3,2,3,2       nasty
-even	1,3,2,3,3       nation
-even	1,3,2,3,4       nature
-even	1,3,2,4,1       near
-even	1,3,2,4,2       neck
-even	1,3,2,4,3       need
-even	1,3,2,4,4       negative
-even	1,3,3,1,1       neglect
-even	1,3,3,1,2       neither
-even	1,3,3,1,3       nephew
-even	1,3,3,1,4       nerve
-even	1,3,3,2,1       nest
-even	1,3,3,2,2       net
-even	1,3,3,2,3       network
-even	1,3,3,2,4       neutral
-even	1,3,3,3,1       never
-even	1,3,3,3,2       news
-even	1,3,3,3,3       next
-even	1,3,3,3,4       nice
-even	1,3,3,4,1       night
-even	1,3,3,4,2       noble
-even	1,3,3,4,3       noise
-even	1,3,3,4,4       nominee
-even	1,3,4,1,1       noodle
-even	1,3,4,1,2       normal
-even	1,3,4,1,3       north
-even	1,3,4,1,4       nose
-even	1,3,4,2,1       notable
-even	1,3,4,2,2       note
-even	1,3,4,2,3       nothing
-even	1,3,4,2,4       notice
-even	1,3,4,3,1       novel
-even	1,3,4,3,2       now
-even	1,3,4,3,3       nuclear
-even	1,3,4,3,4       number
-even	1,3,4,4,1       nurse
-even	1,3,4,4,2       nut
-even	1,3,4,4,3       oak
-even	1,3,4,4,4       obey
-even	1,4,1,1,1       object
-even	1,4,1,1,2       oblige
-even	1,4,1,1,3       obscure
-even	1,4,1,1,4       observe
-even	1,4,1,2,1       obtain
-even	1,4,1,2,2       obvious
-even	1,4,1,2,3       occur
-even	1,4,1,2,4       ocean
-even	1,4,1,3,1       october
-even	1,4,1,3,2       odor
-even	1,4,1,3,3       off
-even	1,4,1,3,4       offer
-even	1,4,1,4,1       office
-even	1,4,1,4,2       often
-even	1,4,1,4,3       oil
-even	1,4,1,4,4       okay
-even	1,4,2,1,1       old
-even	1,4,2,1,2       olive
-even	1,4,2,1,3       olympic
-even	1,4,2,1,4       omit
-even	1,4,2,2,1       once
-even	1,4,2,2,2       one
-even	1,4,2,2,3       onion
-even	1,4,2,2,4       online
-even	1,4,2,3,1       only
-even	1,4,2,3,2       open
-even	1,4,2,3,3       opera
-even	1,4,2,3,4       opinion
-even	1,4,2,4,1       oppose
-even	1,4,2,4,2       option
-even	1,4,2,4,3       orange
-even	1,4,2,4,4       orbit
-even	1,4,3,1,1       orchard
-even	1,4,3,1,2       order
-even	1,4,3,1,3       ordinary
-even	1,4,3,1,4       organ
-even	1,4,3,2,1       orient
-even	1,4,3,2,2       original
-even	1,4,3,2,3       orphan
-even	1,4,3,2,4       ostrich
-even	1,4,3,3,1       other
-even	1,4,3,3,2       outdoor
-even	1,4,3,3,3       outer
-even	1,4,3,3,4       output
-even	1,4,3,4,1       outside
-even	1,4,3,4,2       oval
-even	1,4,3,4,3       oven
-even	1,4,3,4,4       over
-even	1,4,4,1,1       own
-even	1,4,4,1,2       owner
-even	1,4,4,1,3       oxygen
-even	1,4,4,1,4       oyster
-even	1,4,4,2,1       ozone
-even	1,4,4,2,2       pact
-even	1,4,4,2,3       paddle
-even	1,4,4,2,4       page
-even	1,4,4,3,1       pair
-even	1,4,4,3,2       palace
-even	1,4,4,3,3       palm
-even	1,4,4,3,4       panda
-even	1,4,4,4,1       panel
-even	1,4,4,4,2       panic
-even	1,4,4,4,3       panther
-even	1,4,4,4,4       paper
-even	2,1,1,1,1       parade
-even	2,1,1,1,2       parent
-even	2,1,1,1,3       park
-even	2,1,1,1,4       parrot
-even	2,1,1,2,1       party
-even	2,1,1,2,2       pass
-even	2,1,1,2,3       patch
-even	2,1,1,2,4       path
-even	2,1,1,3,1       patient
-even	2,1,1,3,2       patrol
-even	2,1,1,3,3       pattern
-even	2,1,1,3,4       pause
-even	2,1,1,4,1       pave
-even	2,1,1,4,2       payment
-even	2,1,1,4,3       peace
-even	2,1,1,4,4       peanut
-even	2,1,2,1,1       pear
-even	2,1,2,1,2       peasant
-even	2,1,2,1,3       pelican
-even	2,1,2,1,4       pen
-even	2,1,2,2,1       penalty
-even	2,1,2,2,2       pencil
-even	2,1,2,2,3       people
-even	2,1,2,2,4       pepper
-even	2,1,2,3,1       perfect
-even	2,1,2,3,2       permit
-even	2,1,2,3,3       person
-even	2,1,2,3,4       pet
-even	2,1,2,4,1       phone
-even	2,1,2,4,2       photo
-even	2,1,2,4,3       phrase
-even	2,1,2,4,4       physical
-even	2,1,3,1,1       piano
-even	2,1,3,1,2       picnic
-even	2,1,3,1,3       picture
-even	2,1,3,1,4       piece
-even	2,1,3,2,1       pig
-even	2,1,3,2,2       pigeon
-even	2,1,3,2,3       pill
-even	2,1,3,2,4       pilot
-even	2,1,3,3,1       pink
-even	2,1,3,3,2       pioneer
-even	2,1,3,3,3       pipe
-even	2,1,3,3,4       pistol
-even	2,1,3,4,1       pitch
-even	2,1,3,4,2       pizza
-even	2,1,3,4,3       place
-even	2,1,3,4,4       planet
-even	2,1,4,1,1       plastic
-even	2,1,4,1,2       plate
-even	2,1,4,1,3       play
-even	2,1,4,1,4       please
-even	2,1,4,2,1       pledge
-even	2,1,4,2,2       pluck
-even	2,1,4,2,3       plug
-even	2,1,4,2,4       plunge
-even	2,1,4,3,1       poem
-even	2,1,4,3,2       poet
-even	2,1,4,3,3       point
-even	2,1,4,3,4       polar
-even	2,1,4,4,1       pole
-even	2,1,4,4,2       police
-even	2,1,4,4,3       pond
-even	2,1,4,4,4       pony
-even	2,2,1,1,1       pool
-even	2,2,1,1,2       popular
-even	2,2,1,1,3       portion
-even	2,2,1,1,4       position
-even	2,2,1,2,1       possible
-even	2,2,1,2,2       post
-even	2,2,1,2,3       potato
-even	2,2,1,2,4       pottery
-even	2,2,1,3,1       poverty
-even	2,2,1,3,2       powder
-even	2,2,1,3,3       power
-even	2,2,1,3,4       practice
-even	2,2,1,4,1       praise
-even	2,2,1,4,2       predict
-even	2,2,1,4,3       prefer
-even	2,2,1,4,4       prepare
-even	2,2,2,1,1       present
-even	2,2,2,1,2       pretty
-even	2,2,2,1,3       prevent
-even	2,2,2,1,4       price
-even	2,2,2,2,1       pride
-even	2,2,2,2,2       primary
-even	2,2,2,2,3       print
-even	2,2,2,2,4       priority
-even	2,2,2,3,1       prison
-even	2,2,2,3,2       private
-even	2,2,2,3,3       prize
-even	2,2,2,3,4       problem
-even	2,2,2,4,1       process
-even	2,2,2,4,2       produce
-even	2,2,2,4,3       profit
-even	2,2,2,4,4       program
-even	2,2,3,1,1       project
-even	2,2,3,1,2       promote
-even	2,2,3,1,3       proof
-even	2,2,3,1,4       property
-even	2,2,3,2,1       prosper
-even	2,2,3,2,2       protect
-even	2,2,3,2,3       proud
-even	2,2,3,2,4       provide
-even	2,2,3,3,1       public
-even	2,2,3,3,2       pudding
-even	2,2,3,3,3       pull
-even	2,2,3,3,4       pulp
-even	2,2,3,4,1       pulse
-even	2,2,3,4,2       pumpkin
-even	2,2,3,4,3       punch
-even	2,2,3,4,4       pupil
-even	2,2,4,1,1       puppy
-even	2,2,4,1,2       purchase
-even	2,2,4,1,3       purity
-even	2,2,4,1,4       purpose
-even	2,2,4,2,1       purse
-even	2,2,4,2,2       push
-even	2,2,4,2,3       put
-even	2,2,4,2,4       puzzle
-even	2,2,4,3,1       pyramid
-even	2,2,4,3,2       quality
-even	2,2,4,3,3       quantum
-even	2,2,4,3,4       quarter
-even	2,2,4,4,1       question
-even	2,2,4,4,2       quick
-even	2,2,4,4,3       quit
-even	2,2,4,4,4       quiz
-even	2,3,1,1,1       quote
-even	2,3,1,1,2       rabbit
-even	2,3,1,1,3       raccoon
-even	2,3,1,1,4       race
-even	2,3,1,2,1       rack
-even	2,3,1,2,2       radar
-even	2,3,1,2,3       radio
-even	2,3,1,2,4       rail
-even	2,3,1,3,1       rain
-even	2,3,1,3,2       raise
-even	2,3,1,3,3       rally
-even	2,3,1,3,4       ramp
-even	2,3,1,4,1       ranch
-even	2,3,1,4,2       random
-even	2,3,1,4,3       range
-even	2,3,1,4,4       rapid
-even	2,3,2,1,1       rare
-even	2,3,2,1,2       rate
-even	2,3,2,1,3       rather
-even	2,3,2,1,4       raven
-even	2,3,2,2,1       raw
-even	2,3,2,2,2       razor
-even	2,3,2,2,3       ready
-even	2,3,2,2,4       real
-even	2,3,2,3,1       reason
-even	2,3,2,3,2       rebel
-even	2,3,2,3,3       rebuild
-even	2,3,2,3,4       recall
-even	2,3,2,4,1       receive
-even	2,3,2,4,2       recipe
-even	2,3,2,4,3       record
-even	2,3,2,4,4       recycle
-even	2,3,3,1,1       reduce
-even	2,3,3,1,2       reflect
-even	2,3,3,1,3       reform
-even	2,3,3,1,4       refuse
-even	2,3,3,2,1       region
-even	2,3,3,2,2       regret
-even	2,3,3,2,3       regular
-even	2,3,3,2,4       reject
-even	2,3,3,3,1       relax
-even	2,3,3,3,2       release
-even	2,3,3,3,3       relief
-even	2,3,3,3,4       rely
-even	2,3,3,4,1       remain
-even	2,3,3,4,2       remember
-even	2,3,3,4,3       remind
-even	2,3,3,4,4       remove
-even	2,3,4,1,1       render
-even	2,3,4,1,2       renew
-even	2,3,4,1,3       rent
-even	2,3,4,1,4       reopen
-even	2,3,4,2,1       repair
-even	2,3,4,2,2       repeat
-even	2,3,4,2,3       replace
-even	2,3,4,2,4       report
-even	2,3,4,3,1       require
-even	2,3,4,3,2       rescue
-even	2,3,4,3,3       resemble
-even	2,3,4,3,4       resist
-even	2,3,4,4,1       resource
-even	2,3,4,4,2       response
-even	2,3,4,4,3       result
-even	2,3,4,4,4       retire
-even	2,4,1,1,1       retreat
-even	2,4,1,1,2       return
-even	2,4,1,1,3       reunion
-even	2,4,1,1,4       reveal
-even	2,4,1,2,1       review
-even	2,4,1,2,2       reward
-even	2,4,1,2,3       rhythm
-even	2,4,1,2,4       rib
-even	2,4,1,3,1       ribbon
-even	2,4,1,3,2       rice
-even	2,4,1,3,3       rich
-even	2,4,1,3,4       ride
-even	2,4,1,4,1       ridge
-even	2,4,1,4,2       rifle
-even	2,4,1,4,3       right
-even	2,4,1,4,4       rigid
-even	2,4,2,1,1       ring
-even	2,4,2,1,2       riot
-even	2,4,2,1,3       ripple
-even	2,4,2,1,4       risk
-even	2,4,2,2,1       ritual
-even	2,4,2,2,2       rival
-even	2,4,2,2,3       river
-even	2,4,2,2,4       road
-even	2,4,2,3,1       roast
-even	2,4,2,3,2       robot
-even	2,4,2,3,3       robust
-even	2,4,2,3,4       rocket
-even	2,4,2,4,1       romance
-even	2,4,2,4,2       roof
-even	2,4,2,4,3       rookie
-even	2,4,2,4,4       room
-even	2,4,3,1,1       rose
-even	2,4,3,1,2       rotate
-even	2,4,3,1,3       rough
-even	2,4,3,1,4       round
-even	2,4,3,2,1       route
-even	2,4,3,2,2       royal
-even	2,4,3,2,3       rubber
-even	2,4,3,2,4       rude
-even	2,4,3,3,1       rug
-even	2,4,3,3,2       rule
-even	2,4,3,3,3       run
-even	2,4,3,3,4       runway
-even	2,4,3,4,1       rural
-even	2,4,3,4,2       sad
-even	2,4,3,4,3       saddle
-even	2,4,3,4,4       sadness
-even	2,4,4,1,1       safe
-even	2,4,4,1,2       sail
-even	2,4,4,1,3       salad
-even	2,4,4,1,4       salmon
-even	2,4,4,2,1       salon
-even	2,4,4,2,2       salt
-even	2,4,4,2,3       salute
-even	2,4,4,2,4       same
-even	2,4,4,3,1       sample
-even	2,4,4,3,2       sand
-even	2,4,4,3,3       satisfy
-even	2,4,4,3,4       satoshi
-even	2,4,4,4,1       sauce
-even	2,4,4,4,2       sausage
-even	2,4,4,4,3       save
-even	2,4,4,4,4       say
-even	3,1,1,1,1       scale
-even	3,1,1,1,2       scan
-even	3,1,1,1,3       scare
-even	3,1,1,1,4       scatter
-even	3,1,1,2,1       scene
-even	3,1,1,2,2       scheme
-even	3,1,1,2,3       school
-even	3,1,1,2,4       science
-even	3,1,1,3,1       scissors
-even	3,1,1,3,2       scorpion
-even	3,1,1,3,3       scout
-even	3,1,1,3,4       scrap
-even	3,1,1,4,1       screen
-even	3,1,1,4,2       script
-even	3,1,1,4,3       scrub
-even	3,1,1,4,4       sea
-even	3,1,2,1,1       search
-even	3,1,2,1,2       season
-even	3,1,2,1,3       seat
-even	3,1,2,1,4       second
-even	3,1,2,2,1       secret
-even	3,1,2,2,2       section
-even	3,1,2,2,3       security
-even	3,1,2,2,4       seed
-even	3,1,2,3,1       seek
-even	3,1,2,3,2       segment
-even	3,1,2,3,3       select
-even	3,1,2,3,4       sell
-even	3,1,2,4,1       seminar
-even	3,1,2,4,2       senior
-even	3,1,2,4,3       sense
-even	3,1,2,4,4       sentence
-even	3,1,3,1,1       series
-even	3,1,3,1,2       service
-even	3,1,3,1,3       session
-even	3,1,3,1,4       settle
-even	3,1,3,2,1       setup
-even	3,1,3,2,2       seven
-even	3,1,3,2,3       shadow
-even	3,1,3,2,4       shaft
-even	3,1,3,3,1       shallow
-even	3,1,3,3,2       share
-even	3,1,3,3,3       shed
-even	3,1,3,3,4       shell
-even	3,1,3,4,1       sheriff
-even	3,1,3,4,2       shield
-even	3,1,3,4,3       shift
-even	3,1,3,4,4       shine
-even	3,1,4,1,1       ship
-even	3,1,4,1,2       shiver
-even	3,1,4,1,3       shock
-even	3,1,4,1,4       shoe
-even	3,1,4,2,1       shoot
-even	3,1,4,2,2       shop
-even	3,1,4,2,3       short
-even	3,1,4,2,4       shoulder
-even	3,1,4,3,1       shove
-even	3,1,4,3,2       shrimp
-even	3,1,4,3,3       shrug
-even	3,1,4,3,4       shuffle
-even	3,1,4,4,1       shy
-even	3,1,4,4,2       sibling
-even	3,1,4,4,3       sick
-even	3,1,4,4,4       side
-even	3,2,1,1,1       siege
-even	3,2,1,1,2       sight
-even	3,2,1,1,3       sign
-even	3,2,1,1,4       silent
-even	3,2,1,2,1       silk
-even	3,2,1,2,2       silly
-even	3,2,1,2,3       silver
-even	3,2,1,2,4       similar
-even	3,2,1,3,1       simple
-even	3,2,1,3,2       since
-even	3,2,1,3,3       sing
-even	3,2,1,3,4       siren
-even	3,2,1,4,1       sister
-even	3,2,1,4,2       situate
-even	3,2,1,4,3       six
-even	3,2,1,4,4       size
-even	3,2,2,1,1       skate
-even	3,2,2,1,2       sketch
-even	3,2,2,1,3       ski
-even	3,2,2,1,4       skill
-even	3,2,2,2,1       skin
-even	3,2,2,2,2       skirt
-even	3,2,2,2,3       skull
-even	3,2,2,2,4       slab
-even	3,2,2,3,1       slam
-even	3,2,2,3,2       sleep
-even	3,2,2,3,3       slender
-even	3,2,2,3,4       slice
-even	3,2,2,4,1       slide
-even	3,2,2,4,2       slight
-even	3,2,2,4,3       slim
-even	3,2,2,4,4       slogan
-even	3,2,3,1,1       slot
-even	3,2,3,1,2       slow
-even	3,2,3,1,3       slush
-even	3,2,3,1,4       small
-even	3,2,3,2,1       smart
-even	3,2,3,2,2       smile
-even	3,2,3,2,3       smoke
-even	3,2,3,2,4       smooth
-even	3,2,3,3,1       snack
-even	3,2,3,3,2       snake
-even	3,2,3,3,3       snap
-even	3,2,3,3,4       sniff
-even	3,2,3,4,1       snow
-even	3,2,3,4,2       soap
-even	3,2,3,4,3       soccer
-even	3,2,3,4,4       social
-even	3,2,4,1,1       sock
-even	3,2,4,1,2       soda
-even	3,2,4,1,3       soft
-even	3,2,4,1,4       solar
-even	3,2,4,2,1       soldier
-even	3,2,4,2,2       solid
-even	3,2,4,2,3       solution
-even	3,2,4,2,4       solve
-even	3,2,4,3,1       someone
-even	3,2,4,3,2       song
-even	3,2,4,3,3       soon
-even	3,2,4,3,4       sorry
-even	3,2,4,4,1       sort
-even	3,2,4,4,2       soul
-even	3,2,4,4,3       sound
-even	3,2,4,4,4       soup
-even	3,3,1,1,1       source
-even	3,3,1,1,2       south
-even	3,3,1,1,3       space
-even	3,3,1,1,4       spare
-even	3,3,1,2,1       spatial
-even	3,3,1,2,2       spawn
-even	3,3,1,2,3       speak
-even	3,3,1,2,4       special
-even	3,3,1,3,1       speed
-even	3,3,1,3,2       spell
-even	3,3,1,3,3       spend
-even	3,3,1,3,4       sphere
-even	3,3,1,4,1       spice
-even	3,3,1,4,2       spider
-even	3,3,1,4,3       spike
-even	3,3,1,4,4       spin
-even	3,3,2,1,1       spirit
-even	3,3,2,1,2       split
-even	3,3,2,1,3       spoil
-even	3,3,2,1,4       sponsor
-even	3,3,2,2,1       spoon
-even	3,3,2,2,2       sport
-even	3,3,2,2,3       spot
-even	3,3,2,2,4       spray
-even	3,3,2,3,1       spread
-even	3,3,2,3,2       spring
-even	3,3,2,3,3       spy
-even	3,3,2,3,4       square
-even	3,3,2,4,1       squeeze
-even	3,3,2,4,2       squirrel
-even	3,3,2,4,3       stable
-even	3,3,2,4,4       stadium
-even	3,3,3,1,1       staff
-even	3,3,3,1,2       stage
-even	3,3,3,1,3       stairs
-even	3,3,3,1,4       stamp
-even	3,3,3,2,1       stand
-even	3,3,3,2,2       start
-even	3,3,3,2,3       state
-even	3,3,3,2,4       stay
-even	3,3,3,3,1       steak
-even	3,3,3,3,2       steel
-even	3,3,3,3,3       stem
-even	3,3,3,3,4       step
-even	3,3,3,4,1       stereo
-even	3,3,3,4,2       stick
-even	3,3,3,4,3       still
-even	3,3,3,4,4       sting
-even	3,3,4,1,1       stock
-even	3,3,4,1,2       stomach
-even	3,3,4,1,3       stone
-even	3,3,4,1,4       stool
-even	3,3,4,2,1       story
-even	3,3,4,2,2       stove
-even	3,3,4,2,3       strategy
-even	3,3,4,2,4       street
-even	3,3,4,3,1       strike
-even	3,3,4,3,2       strong
-even	3,3,4,3,3       struggle
-even	3,3,4,3,4       student
-even	3,3,4,4,1       stuff
-even	3,3,4,4,2       stumble
-even	3,3,4,4,3       style
-even	3,3,4,4,4       subject
-even	3,4,1,1,1       submit
-even	3,4,1,1,2       subway
-even	3,4,1,1,3       success
-even	3,4,1,1,4       such
-even	3,4,1,2,1       sudden
-even	3,4,1,2,2       suffer
-even	3,4,1,2,3       sugar
-even	3,4,1,2,4       suggest
-even	3,4,1,3,1       suit
-even	3,4,1,3,2       summer
-even	3,4,1,3,3       sun
-even	3,4,1,3,4       sunny
-even	3,4,1,4,1       sunset
-even	3,4,1,4,2       super
-even	3,4,1,4,3       supply
-even	3,4,1,4,4       supreme
-even	3,4,2,1,1       sure
-even	3,4,2,1,2       surface
-even	3,4,2,1,3       surge
-even	3,4,2,1,4       surprise
-even	3,4,2,2,1       surround
-even	3,4,2,2,2       survey
-even	3,4,2,2,3       suspect
-even	3,4,2,2,4       sustain
-even	3,4,2,3,1       swallow
-even	3,4,2,3,2       swamp
-even	3,4,2,3,3       swap
-even	3,4,2,3,4       swarm
-even	3,4,2,4,1       swear
-even	3,4,2,4,2       sweet
-even	3,4,2,4,3       swift
-even	3,4,2,4,4       swim
-even	3,4,3,1,1       swing
-even	3,4,3,1,2       switch
-even	3,4,3,1,3       sword
-even	3,4,3,1,4       symbol
-even	3,4,3,2,1       symptom
-even	3,4,3,2,2       syrup
-even	3,4,3,2,3       system
-even	3,4,3,2,4       table
-even	3,4,3,3,1       tackle
-even	3,4,3,3,2       tag
-even	3,4,3,3,3       tail
-even	3,4,3,3,4       talent
-even	3,4,3,4,1       talk
-even	3,4,3,4,2       tank
-even	3,4,3,4,3       tape
-even	3,4,3,4,4       target
-even	3,4,4,1,1       task
-even	3,4,4,1,2       taste
-even	3,4,4,1,3       tattoo
-even	3,4,4,1,4       taxi
-even	3,4,4,2,1       teach
-even	3,4,4,2,2       team
-even	3,4,4,2,3       tell
-even	3,4,4,2,4       ten
-even	3,4,4,3,1       tenant
-even	3,4,4,3,2       tennis
-even	3,4,4,3,3       tent
-even	3,4,4,3,4       term
-even	3,4,4,4,1       test
-even	3,4,4,4,2       text
-even	3,4,4,4,3       thank
-even	3,4,4,4,4       that
-even	4,1,1,1,1       theme
-even	4,1,1,1,2       then
-even	4,1,1,1,3       theory
-even	4,1,1,1,4       there
-even	4,1,1,2,1       they
-even	4,1,1,2,2       thing
-even	4,1,1,2,3       this
-even	4,1,1,2,4       thought
-even	4,1,1,3,1       three
-even	4,1,1,3,2       thrive
-even	4,1,1,3,3       throw
-even	4,1,1,3,4       thumb
-even	4,1,1,4,1       thunder
-even	4,1,1,4,2       ticket
-even	4,1,1,4,3       tide
-even	4,1,1,4,4       tiger
-even	4,1,2,1,1       tilt
-even	4,1,2,1,2       timber
-even	4,1,2,1,3       time
-even	4,1,2,1,4       tiny
-even	4,1,2,2,1       tip
-even	4,1,2,2,2       tired
-even	4,1,2,2,3       tissue
-even	4,1,2,2,4       title
-even	4,1,2,3,1       toast
-even	4,1,2,3,2       tobacco
-even	4,1,2,3,3       today
-even	4,1,2,3,4       toddler
-even	4,1,2,4,1       toe
-even	4,1,2,4,2       together
-even	4,1,2,4,3       toilet
-even	4,1,2,4,4       token
-even	4,1,3,1,1       tomato
-even	4,1,3,1,2       tomorrow
-even	4,1,3,1,3       tone
-even	4,1,3,1,4       tongue
-even	4,1,3,2,1       tonight
-even	4,1,3,2,2       tool
-even	4,1,3,2,3       tooth
-even	4,1,3,2,4       top
-even	4,1,3,3,1       topic
-even	4,1,3,3,2       topple
-even	4,1,3,3,3       torch
-even	4,1,3,3,4       tornado
-even	4,1,3,4,1       tortoise
-even	4,1,3,4,2       toss
-even	4,1,3,4,3       total
-even	4,1,3,4,4       tourist
-even	4,1,4,1,1       toward
-even	4,1,4,1,2       tower
-even	4,1,4,1,3       town
-even	4,1,4,1,4       toy
-even	4,1,4,2,1       track
-even	4,1,4,2,2       trade
-even	4,1,4,2,3       traffic
-even	4,1,4,2,4       tragic
-even	4,1,4,3,1       train
-even	4,1,4,3,2       transfer
-even	4,1,4,3,3       trap
-even	4,1,4,3,4       trash
-even	4,1,4,4,1       travel
-even	4,1,4,4,2       tray
-even	4,1,4,4,3       treat
-even	4,1,4,4,4       tree
-even	4,2,1,1,1       trend
-even	4,2,1,1,2       trial
-even	4,2,1,1,3       tribe
-even	4,2,1,1,4       trick
-even	4,2,1,2,1       trigger
-even	4,2,1,2,2       trim
-even	4,2,1,2,3       trip
-even	4,2,1,2,4       trophy
-even	4,2,1,3,1       trouble
-even	4,2,1,3,2       truck
-even	4,2,1,3,3       true
-even	4,2,1,3,4       truly
-even	4,2,1,4,1       trumpet
-even	4,2,1,4,2       trust
-even	4,2,1,4,3       truth
-even	4,2,1,4,4       try
-even	4,2,2,1,1       tube
-even	4,2,2,1,2       tuition
-even	4,2,2,1,3       tumble
-even	4,2,2,1,4       tuna
-even	4,2,2,2,1       tunnel
-even	4,2,2,2,2       turkey
-even	4,2,2,2,3       turn
-even	4,2,2,2,4       turtle
-even	4,2,2,3,1       twelve
-even	4,2,2,3,2       twenty
-even	4,2,2,3,3       twice
-even	4,2,2,3,4       twin
-even	4,2,2,4,1       twist
-even	4,2,2,4,2       two
-even	4,2,2,4,3       type
-even	4,2,2,4,4       typical
-even	4,2,3,1,1       ugly
-even	4,2,3,1,2       umbrella
-even	4,2,3,1,3       unable
-even	4,2,3,1,4       unaware
-even	4,2,3,2,1       uncle
-even	4,2,3,2,2       uncover
-even	4,2,3,2,3       under
-even	4,2,3,2,4       undo
-even	4,2,3,3,1       unfair
-even	4,2,3,3,2       unfold
-even	4,2,3,3,3       unhappy
-even	4,2,3,3,4       uniform
-even	4,2,3,4,1       unique
-even	4,2,3,4,2       unit
-even	4,2,3,4,3       universe
-even	4,2,3,4,4       unknown
-even	4,2,4,1,1       unlock
-even	4,2,4,1,2       until
-even	4,2,4,1,3       unusual
-even	4,2,4,1,4       unveil
-even	4,2,4,2,1       update
-even	4,2,4,2,2       upgrade
-even	4,2,4,2,3       uphold
-even	4,2,4,2,4       upon
-even	4,2,4,3,1       upper
-even	4,2,4,3,2       upset
-even	4,2,4,3,3       urban
-even	4,2,4,3,4       urge
-even	4,2,4,4,1       usage
-even	4,2,4,4,2       use
-even	4,2,4,4,3       used
-even	4,2,4,4,4       useful
-even	4,3,1,1,1       useless
-even	4,3,1,1,2       usual
-even	4,3,1,1,3       utility
-even	4,3,1,1,4       vacant
-even	4,3,1,2,1       vacuum
-even	4,3,1,2,2       vague
-even	4,3,1,2,3       valid
-even	4,3,1,2,4       valley
-even	4,3,1,3,1       valve
-even	4,3,1,3,2       van
-even	4,3,1,3,3       vanish
-even	4,3,1,3,4       vapor
-even	4,3,1,4,1       various
-even	4,3,1,4,2       vast
-even	4,3,1,4,3       vault
-even	4,3,1,4,4       vehicle
-even	4,3,2,1,1       velvet
-even	4,3,2,1,2       vendor
-even	4,3,2,1,3       venture
-even	4,3,2,1,4       venue
-even	4,3,2,2,1       verb
-even	4,3,2,2,2       verify
-even	4,3,2,2,3       version
-even	4,3,2,2,4       very
-even	4,3,2,3,1       vessel
-even	4,3,2,3,2       veteran
-even	4,3,2,3,3       viable
-even	4,3,2,3,4       vibrant
-even	4,3,2,4,1       vicious
-even	4,3,2,4,2       victory
-even	4,3,2,4,3       video
-even	4,3,2,4,4       view
-even	4,3,3,1,1       village
-even	4,3,3,1,2       vintage
-even	4,3,3,1,3       violin
-even	4,3,3,1,4       virtual
-even	4,3,3,2,1       virus
-even	4,3,3,2,2       visa
-even	4,3,3,2,3       visit
-even	4,3,3,2,4       visual
-even	4,3,3,3,1       vital
-even	4,3,3,3,2       vivid
-even	4,3,3,3,3       vocal
-even	4,3,3,3,4       voice
-even	4,3,3,4,1       void
-even	4,3,3,4,2       volcano
-even	4,3,3,4,3       volume
-even	4,3,3,4,4       vote
-even	4,3,4,1,1       voyage
-even	4,3,4,1,2       wage
-even	4,3,4,1,3       wagon
-even	4,3,4,1,4       wait
-even	4,3,4,2,1       walk
-even	4,3,4,2,2       wall
-even	4,3,4,2,3       walnut
-even	4,3,4,2,4       want
-even	4,3,4,3,1       warfare
-even	4,3,4,3,2       warm
-even	4,3,4,3,3       warrior
-even	4,3,4,3,4       wash
-even	4,3,4,4,1       wasp
-even	4,3,4,4,2       waste
-even	4,3,4,4,3       water
-even	4,3,4,4,4       wave
-even	4,4,1,1,1       way
-even	4,4,1,1,2       wealth
-even	4,4,1,1,3       weapon
-even	4,4,1,1,4       wear
-even	4,4,1,2,1       weasel
-even	4,4,1,2,2       weather
-even	4,4,1,2,3       web
-even	4,4,1,2,4       wedding
-even	4,4,1,3,1       weekend
-even	4,4,1,3,2       weird
-even	4,4,1,3,3       welcome
-even	4,4,1,3,4       west
-even	4,4,1,4,1       wet
-even	4,4,1,4,2       whale
-even	4,4,1,4,3       what
-even	4,4,1,4,4       wheat
-even	4,4,2,1,1       wheel
-even	4,4,2,1,2       when
-even	4,4,2,1,3       where
-even	4,4,2,1,4       whip
-even	4,4,2,2,1       whisper
-even	4,4,2,2,2       wide
-even	4,4,2,2,3       width
-even	4,4,2,2,4       wife
-even	4,4,2,3,1       wild
-even	4,4,2,3,2       will
-even	4,4,2,3,3       win
-even	4,4,2,3,4       window
-even	4,4,2,4,1       wine
-even	4,4,2,4,2       wing
-even	4,4,2,4,3       wink
-even	4,4,2,4,4       winner
-even	4,4,3,1,1       winter
-even	4,4,3,1,2       wire
-even	4,4,3,1,3       wisdom
-even	4,4,3,1,4       wise
-even	4,4,3,2,1       wish
-even	4,4,3,2,2       witness
-even	4,4,3,2,3       wolf
-even	4,4,3,2,4       woman
-even	4,4,3,3,1       wonder
-even	4,4,3,3,2       wood
-even	4,4,3,3,3       wool
-even	4,4,3,3,4       word
-even	4,4,3,4,1       work
-even	4,4,3,4,2       world
-even	4,4,3,4,3       worry
-even	4,4,3,4,4       worth
-even	4,4,4,1,1       wrap
-even	4,4,4,1,2       wreck
-even	4,4,4,1,3       wrestle
-even	4,4,4,1,4       wrist
-even	4,4,4,2,1       write
-even	4,4,4,2,2       wrong
-even	4,4,4,2,3       yard
-even	4,4,4,2,4       year
-even	4,4,4,3,1       yellow
-even	4,4,4,3,2       you
-even	4,4,4,3,3       young
-even	4,4,4,3,4       youth
-even	4,4,4,4,1       zebra
-even	4,4,4,4,2       zero
-even	4,4,4,4,3       zone
-even	4,4,4,4,4       zoo
-
+odd,1,1,1,1,1       abandon
+odd,1,1,1,1,2       ability
+odd,1,1,1,1,3       able
+odd,1,1,1,1,4       about
+odd,1,1,1,2,1       above
+odd,1,1,1,2,2       absent
+odd,1,1,1,2,3       absorb
+odd,1,1,1,2,4       abstract
+odd,1,1,1,3,1       absurd
+odd,1,1,1,3,2       abuse
+odd,1,1,1,3,3       access
+odd,1,1,1,3,4       accident
+odd,1,1,1,4,1       account
+odd,1,1,1,4,2       accuse
+odd,1,1,1,4,3       achieve
+odd,1,1,1,4,4       acid
+odd,1,1,2,1,1       acoustic
+odd,1,1,2,1,2       acquire
+odd,1,1,2,1,3       across
+odd,1,1,2,1,4       act
+odd,1,1,2,2,1       action
+odd,1,1,2,2,2       actor
+odd,1,1,2,2,3       actress
+odd,1,1,2,2,4       actual
+odd,1,1,2,3,1       adapt
+odd,1,1,2,3,2       add
+odd,1,1,2,3,3       addict
+odd,1,1,2,3,4       address
+odd,1,1,2,4,1       adjust
+odd,1,1,2,4,2       admit
+odd,1,1,2,4,3       adult
+odd,1,1,2,4,4       advance
+odd,1,1,3,1,1       advice
+odd,1,1,3,1,2       aerobic
+odd,1,1,3,1,3       affair
+odd,1,1,3,1,4       afford
+odd,1,1,3,2,1       afraid
+odd,1,1,3,2,2       again
+odd,1,1,3,2,3       age
+odd,1,1,3,2,4       agent
+odd,1,1,3,3,1       agree
+odd,1,1,3,3,2       ahead
+odd,1,1,3,3,3       aim
+odd,1,1,3,3,4       air
+odd,1,1,3,4,1       airport
+odd,1,1,3,4,2       aisle
+odd,1,1,3,4,3       alarm
+odd,1,1,3,4,4       album
+odd,1,1,4,1,1       alcohol
+odd,1,1,4,1,2       alert
+odd,1,1,4,1,3       alien
+odd,1,1,4,1,4       all
+odd,1,1,4,2,1       alley
+odd,1,1,4,2,2       allow
+odd,1,1,4,2,3       almost
+odd,1,1,4,2,4       alone
+odd,1,1,4,3,1       alpha
+odd,1,1,4,3,2       already
+odd,1,1,4,3,3       also
+odd,1,1,4,3,4       alter
+odd,1,1,4,4,1       always
+odd,1,1,4,4,2       amateur
+odd,1,1,4,4,3       amazing
+odd,1,1,4,4,4       among
+odd,1,2,1,1,1       amount
+odd,1,2,1,1,2       amused
+odd,1,2,1,1,3       analyst
+odd,1,2,1,1,4       anchor
+odd,1,2,1,2,1       ancient
+odd,1,2,1,2,2       anger
+odd,1,2,1,2,3       angle
+odd,1,2,1,2,4       angry
+odd,1,2,1,3,1       animal
+odd,1,2,1,3,2       ankle
+odd,1,2,1,3,3       announce
+odd,1,2,1,3,4       annual
+odd,1,2,1,4,1       another
+odd,1,2,1,4,2       answer
+odd,1,2,1,4,3       antenna
+odd,1,2,1,4,4       antique
+odd,1,2,2,1,1       anxiety
+odd,1,2,2,1,2       any
+odd,1,2,2,1,3       apart
+odd,1,2,2,1,4       apology
+odd,1,2,2,2,1       appear
+odd,1,2,2,2,2       apple
+odd,1,2,2,2,3       approve
+odd,1,2,2,2,4       april
+odd,1,2,2,3,1       arch
+odd,1,2,2,3,2       arctic
+odd,1,2,2,3,3       area
+odd,1,2,2,3,4       arena
+odd,1,2,2,4,1       argue
+odd,1,2,2,4,2       arm
+odd,1,2,2,4,3       armed
+odd,1,2,2,4,4       armor
+odd,1,2,3,1,1       army
+odd,1,2,3,1,2       around
+odd,1,2,3,1,3       arrange
+odd,1,2,3,1,4       arrest
+odd,1,2,3,2,1       arrive
+odd,1,2,3,2,2       arrow
+odd,1,2,3,2,3       art
+odd,1,2,3,2,4       artefact
+odd,1,2,3,3,1       artist
+odd,1,2,3,3,2       artwork
+odd,1,2,3,3,3       ask
+odd,1,2,3,3,4       aspect
+odd,1,2,3,4,1       assault
+odd,1,2,3,4,2       asset
+odd,1,2,3,4,3       assist
+odd,1,2,3,4,4       assume
+odd,1,2,4,1,1       asthma
+odd,1,2,4,1,2       athlete
+odd,1,2,4,1,3       atom
+odd,1,2,4,1,4       attack
+odd,1,2,4,2,1       attend
+odd,1,2,4,2,2       attitude
+odd,1,2,4,2,3       attract
+odd,1,2,4,2,4       auction
+odd,1,2,4,3,1       audit
+odd,1,2,4,3,2       august
+odd,1,2,4,3,3       aunt
+odd,1,2,4,3,4       author
+odd,1,2,4,4,1       auto
+odd,1,2,4,4,2       autumn
+odd,1,2,4,4,3       average
+odd,1,2,4,4,4       avocado
+odd,1,3,1,1,1       avoid
+odd,1,3,1,1,2       awake
+odd,1,3,1,1,3       aware
+odd,1,3,1,1,4       away
+odd,1,3,1,2,1       awesome
+odd,1,3,1,2,2       awful
+odd,1,3,1,2,3       awkward
+odd,1,3,1,2,4       axis
+odd,1,3,1,3,1       baby
+odd,1,3,1,3,2       bachelor
+odd,1,3,1,3,3       bacon
+odd,1,3,1,3,4       badge
+odd,1,3,1,4,1       bag
+odd,1,3,1,4,2       balance
+odd,1,3,1,4,3       balcony
+odd,1,3,1,4,4       ball
+odd,1,3,2,1,1       bamboo
+odd,1,3,2,1,2       banana
+odd,1,3,2,1,3       banner
+odd,1,3,2,1,4       bar
+odd,1,3,2,2,1       barely
+odd,1,3,2,2,2       bargain
+odd,1,3,2,2,3       barrel
+odd,1,3,2,2,4       base
+odd,1,3,2,3,1       basic
+odd,1,3,2,3,2       basket
+odd,1,3,2,3,3       battle
+odd,1,3,2,3,4       beach
+odd,1,3,2,4,1       bean
+odd,1,3,2,4,2       beauty
+odd,1,3,2,4,3       because
+odd,1,3,2,4,4       become
+odd,1,3,3,1,1       beef
+odd,1,3,3,1,2       before
+odd,1,3,3,1,3       begin
+odd,1,3,3,1,4       behave
+odd,1,3,3,2,1       behind
+odd,1,3,3,2,2       believe
+odd,1,3,3,2,3       below
+odd,1,3,3,2,4       belt
+odd,1,3,3,3,1       bench
+odd,1,3,3,3,2       benefit
+odd,1,3,3,3,3       best
+odd,1,3,3,3,4       betray
+odd,1,3,3,4,1       better
+odd,1,3,3,4,2       between
+odd,1,3,3,4,3       beyond
+odd,1,3,3,4,4       bicycle
+odd,1,3,4,1,1       bid
+odd,1,3,4,1,2       bike
+odd,1,3,4,1,3       bind
+odd,1,3,4,1,4       biology
+odd,1,3,4,2,1       bird
+odd,1,3,4,2,2       birth
+odd,1,3,4,2,3       bitter
+odd,1,3,4,2,4       black
+odd,1,3,4,3,1       blade
+odd,1,3,4,3,2       blame
+odd,1,3,4,3,3       blanket
+odd,1,3,4,3,4       blast
+odd,1,3,4,4,1       bleak
+odd,1,3,4,4,2       bless
+odd,1,3,4,4,3       blind
+odd,1,3,4,4,4       blood
+odd,1,4,1,1,1       blossom
+odd,1,4,1,1,2       blouse
+odd,1,4,1,1,3       blue
+odd,1,4,1,1,4       blur
+odd,1,4,1,2,1       blush
+odd,1,4,1,2,2       board
+odd,1,4,1,2,3       boat
+odd,1,4,1,2,4       body
+odd,1,4,1,3,1       boil
+odd,1,4,1,3,2       bomb
+odd,1,4,1,3,3       bone
+odd,1,4,1,3,4       bonus
+odd,1,4,1,4,1       book
+odd,1,4,1,4,2       boost
+odd,1,4,1,4,3       border
+odd,1,4,1,4,4       boring
+odd,1,4,2,1,1       borrow
+odd,1,4,2,1,2       boss
+odd,1,4,2,1,3       bottom
+odd,1,4,2,1,4       bounce
+odd,1,4,2,2,1       box
+odd,1,4,2,2,2       boy
+odd,1,4,2,2,3       bracket
+odd,1,4,2,2,4       brain
+odd,1,4,2,3,1       brand
+odd,1,4,2,3,2       brass
+odd,1,4,2,3,3       brave
+odd,1,4,2,3,4       bread
+odd,1,4,2,4,1       breeze
+odd,1,4,2,4,2       brick
+odd,1,4,2,4,3       bridge
+odd,1,4,2,4,4       brief
+odd,1,4,3,1,1       bright
+odd,1,4,3,1,2       bring
+odd,1,4,3,1,3       brisk
+odd,1,4,3,1,4       broccoli
+odd,1,4,3,2,1       broken
+odd,1,4,3,2,2       bronze
+odd,1,4,3,2,3       broom
+odd,1,4,3,2,4       brother
+odd,1,4,3,3,1       brown
+odd,1,4,3,3,2       brush
+odd,1,4,3,3,3       bubble
+odd,1,4,3,3,4       buddy
+odd,1,4,3,4,1       budget
+odd,1,4,3,4,2       buffalo
+odd,1,4,3,4,3       build
+odd,1,4,3,4,4       bulb
+odd,1,4,4,1,1       bulk
+odd,1,4,4,1,2       bullet
+odd,1,4,4,1,3       bundle
+odd,1,4,4,1,4       bunker
+odd,1,4,4,2,1       burden
+odd,1,4,4,2,2       burger
+odd,1,4,4,2,3       burst
+odd,1,4,4,2,4       bus
+odd,1,4,4,3,1       business
+odd,1,4,4,3,2       busy
+odd,1,4,4,3,3       butter
+odd,1,4,4,3,4       buyer
+odd,1,4,4,4,1       buzz
+odd,1,4,4,4,2       cabbage
+odd,1,4,4,4,3       cabin
+odd,1,4,4,4,4       cable
+odd,2,1,1,1,1       cactus
+odd,2,1,1,1,2       cage
+odd,2,1,1,1,3       cake
+odd,2,1,1,1,4       call
+odd,2,1,1,2,1       calm
+odd,2,1,1,2,2       camera
+odd,2,1,1,2,3       camp
+odd,2,1,1,2,4       can
+odd,2,1,1,3,1       canal
+odd,2,1,1,3,2       cancel
+odd,2,1,1,3,3       candy
+odd,2,1,1,3,4       cannon
+odd,2,1,1,4,1       canoe
+odd,2,1,1,4,2       canvas
+odd,2,1,1,4,3       canyon
+odd,2,1,1,4,4       capable
+odd,2,1,2,1,1       capital
+odd,2,1,2,1,2       captain
+odd,2,1,2,1,3       car
+odd,2,1,2,1,4       carbon
+odd,2,1,2,2,1       card
+odd,2,1,2,2,2       cargo
+odd,2,1,2,2,3       carpet
+odd,2,1,2,2,4       carry
+odd,2,1,2,3,1       cart
+odd,2,1,2,3,2       case
+odd,2,1,2,3,3       cash
+odd,2,1,2,3,4       casino
+odd,2,1,2,4,1       castle
+odd,2,1,2,4,2       casual
+odd,2,1,2,4,3       cat
+odd,2,1,2,4,4       catalog
+odd,2,1,3,1,1       catch
+odd,2,1,3,1,2       category
+odd,2,1,3,1,3       cattle
+odd,2,1,3,1,4       caught
+odd,2,1,3,2,1       cause
+odd,2,1,3,2,2       caution
+odd,2,1,3,2,3       cave
+odd,2,1,3,2,4       ceiling
+odd,2,1,3,3,1       celery
+odd,2,1,3,3,2       cement
+odd,2,1,3,3,3       census
+odd,2,1,3,3,4       century
+odd,2,1,3,4,1       cereal
+odd,2,1,3,4,2       certain
+odd,2,1,3,4,3       chair
+odd,2,1,3,4,4       chalk
+odd,2,1,4,1,1       champion
+odd,2,1,4,1,2       change
+odd,2,1,4,1,3       chaos
+odd,2,1,4,1,4       chapter
+odd,2,1,4,2,1       charge
+odd,2,1,4,2,2       chase
+odd,2,1,4,2,3       chat
+odd,2,1,4,2,4       cheap
+odd,2,1,4,3,1       check
+odd,2,1,4,3,2       cheese
+odd,2,1,4,3,3       chef
+odd,2,1,4,3,4       cherry
+odd,2,1,4,4,1       chest
+odd,2,1,4,4,2       chicken
+odd,2,1,4,4,3       chief
+odd,2,1,4,4,4       child
+odd,2,2,1,1,1       chimney
+odd,2,2,1,1,2       choice
+odd,2,2,1,1,3       choose
+odd,2,2,1,1,4       chronic
+odd,2,2,1,2,1       chuckle
+odd,2,2,1,2,2       chunk
+odd,2,2,1,2,3       churn
+odd,2,2,1,2,4       cigar
+odd,2,2,1,3,1       cinnamon
+odd,2,2,1,3,2       circle
+odd,2,2,1,3,3       citizen
+odd,2,2,1,3,4       city
+odd,2,2,1,4,1       civil
+odd,2,2,1,4,2       claim
+odd,2,2,1,4,3       clap
+odd,2,2,1,4,4       clarify
+odd,2,2,2,1,1       claw
+odd,2,2,2,1,2       clay
+odd,2,2,2,1,3       clean
+odd,2,2,2,1,4       clerk
+odd,2,2,2,2,1       clever
+odd,2,2,2,2,2       click
+odd,2,2,2,2,3       client
+odd,2,2,2,2,4       cliff
+odd,2,2,2,3,1       climb
+odd,2,2,2,3,2       clinic
+odd,2,2,2,3,3       clip
+odd,2,2,2,3,4       clock
+odd,2,2,2,4,1       clog
+odd,2,2,2,4,2       close
+odd,2,2,2,4,3       cloth
+odd,2,2,2,4,4       cloud
+odd,2,2,3,1,1       clown
+odd,2,2,3,1,2       club
+odd,2,2,3,1,3       clump
+odd,2,2,3,1,4       cluster
+odd,2,2,3,2,1       clutch
+odd,2,2,3,2,2       coach
+odd,2,2,3,2,3       coast
+odd,2,2,3,2,4       coconut
+odd,2,2,3,3,1       code
+odd,2,2,3,3,2       coffee
+odd,2,2,3,3,3       coil
+odd,2,2,3,3,4       coin
+odd,2,2,3,4,1       collect
+odd,2,2,3,4,2       color
+odd,2,2,3,4,3       column
+odd,2,2,3,4,4       combine
+odd,2,2,4,1,1       come
+odd,2,2,4,1,2       comfort
+odd,2,2,4,1,3       comic
+odd,2,2,4,1,4       common
+odd,2,2,4,2,1       company
+odd,2,2,4,2,2       concert
+odd,2,2,4,2,3       conduct
+odd,2,2,4,2,4       confirm
+odd,2,2,4,3,1       congress
+odd,2,2,4,3,2       connect
+odd,2,2,4,3,3       consider
+odd,2,2,4,3,4       control
+odd,2,2,4,4,1       convince
+odd,2,2,4,4,2       cook
+odd,2,2,4,4,3       cool
+odd,2,2,4,4,4       copper
+odd,2,3,1,1,1       copy
+odd,2,3,1,1,2       coral
+odd,2,3,1,1,3       core
+odd,2,3,1,1,4       corn
+odd,2,3,1,2,1       correct
+odd,2,3,1,2,2       cost
+odd,2,3,1,2,3       cotton
+odd,2,3,1,2,4       couch
+odd,2,3,1,3,1       country
+odd,2,3,1,3,2       couple
+odd,2,3,1,3,3       course
+odd,2,3,1,3,4       cousin
+odd,2,3,1,4,1       cover
+odd,2,3,1,4,2       coyote
+odd,2,3,1,4,3       crack
+odd,2,3,1,4,4       cradle
+odd,2,3,2,1,1       craft
+odd,2,3,2,1,2       cram
+odd,2,3,2,1,3       crane
+odd,2,3,2,1,4       crash
+odd,2,3,2,2,1       crater
+odd,2,3,2,2,2       crawl
+odd,2,3,2,2,3       crazy
+odd,2,3,2,2,4       cream
+odd,2,3,2,3,1       credit
+odd,2,3,2,3,2       creek
+odd,2,3,2,3,3       crew
+odd,2,3,2,3,4       cricket
+odd,2,3,2,4,1       crime
+odd,2,3,2,4,2       crisp
+odd,2,3,2,4,3       critic
+odd,2,3,2,4,4       crop
+odd,2,3,3,1,1       cross
+odd,2,3,3,1,2       crouch
+odd,2,3,3,1,3       crowd
+odd,2,3,3,1,4       crucial
+odd,2,3,3,2,1       cruel
+odd,2,3,3,2,2       cruise
+odd,2,3,3,2,3       crumble
+odd,2,3,3,2,4       crunch
+odd,2,3,3,3,1       crush
+odd,2,3,3,3,2       cry
+odd,2,3,3,3,3       crystal
+odd,2,3,3,3,4       cube
+odd,2,3,3,4,1       culture
+odd,2,3,3,4,2       cup
+odd,2,3,3,4,3       cupboard
+odd,2,3,3,4,4       curious
+odd,2,3,4,1,1       current
+odd,2,3,4,1,2       curtain
+odd,2,3,4,1,3       curve
+odd,2,3,4,1,4       cushion
+odd,2,3,4,2,1       custom
+odd,2,3,4,2,2       cute
+odd,2,3,4,2,3       cycle
+odd,2,3,4,2,4       dad
+odd,2,3,4,3,1       damage
+odd,2,3,4,3,2       damp
+odd,2,3,4,3,3       dance
+odd,2,3,4,3,4       danger
+odd,2,3,4,4,1       daring
+odd,2,3,4,4,2       dash
+odd,2,3,4,4,3       daughter
+odd,2,3,4,4,4       dawn
+odd,2,4,1,1,1       day
+odd,2,4,1,1,2       deal
+odd,2,4,1,1,3       debate
+odd,2,4,1,1,4       debris
+odd,2,4,1,2,1       decade
+odd,2,4,1,2,2       december
+odd,2,4,1,2,3       decide
+odd,2,4,1,2,4       decline
+odd,2,4,1,3,1       decorate
+odd,2,4,1,3,2       decrease
+odd,2,4,1,3,3       deer
+odd,2,4,1,3,4       defense
+odd,2,4,1,4,1       define
+odd,2,4,1,4,2       defy
+odd,2,4,1,4,3       degree
+odd,2,4,1,4,4       delay
+odd,2,4,2,1,1       deliver
+odd,2,4,2,1,2       demand
+odd,2,4,2,1,3       demise
+odd,2,4,2,1,4       denial
+odd,2,4,2,2,1       dentist
+odd,2,4,2,2,2       deny
+odd,2,4,2,2,3       depart
+odd,2,4,2,2,4       depend
+odd,2,4,2,3,1       deposit
+odd,2,4,2,3,2       depth
+odd,2,4,2,3,3       deputy
+odd,2,4,2,3,4       derive
+odd,2,4,2,4,1       describe
+odd,2,4,2,4,2       desert
+odd,2,4,2,4,3       design
+odd,2,4,2,4,4       desk
+odd,2,4,3,1,1       despair
+odd,2,4,3,1,2       destroy
+odd,2,4,3,1,3       detail
+odd,2,4,3,1,4       detect
+odd,2,4,3,2,1       develop
+odd,2,4,3,2,2       device
+odd,2,4,3,2,3       devote
+odd,2,4,3,2,4       diagram
+odd,2,4,3,3,1       dial
+odd,2,4,3,3,2       diamond
+odd,2,4,3,3,3       diary
+odd,2,4,3,3,4       dice
+odd,2,4,3,4,1       diesel
+odd,2,4,3,4,2       diet
+odd,2,4,3,4,3       differ
+odd,2,4,3,4,4       digital
+odd,2,4,4,1,1       dignity
+odd,2,4,4,1,2       dilemma
+odd,2,4,4,1,3       dinner
+odd,2,4,4,1,4       dinosaur
+odd,2,4,4,2,1       direct
+odd,2,4,4,2,2       dirt
+odd,2,4,4,2,3       disagree
+odd,2,4,4,2,4       discover
+odd,2,4,4,3,1       disease
+odd,2,4,4,3,2       dish
+odd,2,4,4,3,3       dismiss
+odd,2,4,4,3,4       disorder
+odd,2,4,4,4,1       display
+odd,2,4,4,4,2       distance
+odd,2,4,4,4,3       divert
+odd,2,4,4,4,4       divide
+odd,3,1,1,1,1       divorce
+odd,3,1,1,1,2       dizzy
+odd,3,1,1,1,3       doctor
+odd,3,1,1,1,4       document
+odd,3,1,1,2,1       dog
+odd,3,1,1,2,2       doll
+odd,3,1,1,2,3       dolphin
+odd,3,1,1,2,4       domain
+odd,3,1,1,3,1       donate
+odd,3,1,1,3,2       donkey
+odd,3,1,1,3,3       donor
+odd,3,1,1,3,4       door
+odd,3,1,1,4,1       dose
+odd,3,1,1,4,2       double
+odd,3,1,1,4,3       dove
+odd,3,1,1,4,4       draft
+odd,3,1,2,1,1       dragon
+odd,3,1,2,1,2       drama
+odd,3,1,2,1,3       drastic
+odd,3,1,2,1,4       draw
+odd,3,1,2,2,1       dream
+odd,3,1,2,2,2       dress
+odd,3,1,2,2,3       drift
+odd,3,1,2,2,4       drill
+odd,3,1,2,3,1       drink
+odd,3,1,2,3,2       drip
+odd,3,1,2,3,3       drive
+odd,3,1,2,3,4       drop
+odd,3,1,2,4,1       drum
+odd,3,1,2,4,2       dry
+odd,3,1,2,4,3       duck
+odd,3,1,2,4,4       dumb
+odd,3,1,3,1,1       dune
+odd,3,1,3,1,2       during
+odd,3,1,3,1,3       dust
+odd,3,1,3,1,4       dutch
+odd,3,1,3,2,1       duty
+odd,3,1,3,2,2       dwarf
+odd,3,1,3,2,3       dynamic
+odd,3,1,3,2,4       eager
+odd,3,1,3,3,1       eagle
+odd,3,1,3,3,2       early
+odd,3,1,3,3,3       earn
+odd,3,1,3,3,4       earth
+odd,3,1,3,4,1       easily
+odd,3,1,3,4,2       east
+odd,3,1,3,4,3       easy
+odd,3,1,3,4,4       echo
+odd,3,1,4,1,1       ecology
+odd,3,1,4,1,2       economy
+odd,3,1,4,1,3       edge
+odd,3,1,4,1,4       edit
+odd,3,1,4,2,1       educate
+odd,3,1,4,2,2       effort
+odd,3,1,4,2,3       egg
+odd,3,1,4,2,4       eight
+odd,3,1,4,3,1       either
+odd,3,1,4,3,2       elbow
+odd,3,1,4,3,3       elder
+odd,3,1,4,3,4       electric
+odd,3,1,4,4,1       elegant
+odd,3,1,4,4,2       element
+odd,3,1,4,4,3       elephant
+odd,3,1,4,4,4       elevator
+odd,3,2,1,1,1       elite
+odd,3,2,1,1,2       else
+odd,3,2,1,1,3       embark
+odd,3,2,1,1,4       embody
+odd,3,2,1,2,1       embrace
+odd,3,2,1,2,2       emerge
+odd,3,2,1,2,3       emotion
+odd,3,2,1,2,4       employ
+odd,3,2,1,3,1       empower
+odd,3,2,1,3,2       empty
+odd,3,2,1,3,3       enable
+odd,3,2,1,3,4       enact
+odd,3,2,1,4,1       end
+odd,3,2,1,4,2       endless
+odd,3,2,1,4,3       endorse
+odd,3,2,1,4,4       enemy
+odd,3,2,2,1,1       energy
+odd,3,2,2,1,2       enforce
+odd,3,2,2,1,3       engage
+odd,3,2,2,1,4       engine
+odd,3,2,2,2,1       enhance
+odd,3,2,2,2,2       enjoy
+odd,3,2,2,2,3       enlist
+odd,3,2,2,2,4       enough
+odd,3,2,2,3,1       enrich
+odd,3,2,2,3,2       enroll
+odd,3,2,2,3,3       ensure
+odd,3,2,2,3,4       enter
+odd,3,2,2,4,1       entire
+odd,3,2,2,4,2       entry
+odd,3,2,2,4,3       envelope
+odd,3,2,2,4,4       episode
+odd,3,2,3,1,1       equal
+odd,3,2,3,1,2       equip
+odd,3,2,3,1,3       era
+odd,3,2,3,1,4       erase
+odd,3,2,3,2,1       erode
+odd,3,2,3,2,2       erosion
+odd,3,2,3,2,3       error
+odd,3,2,3,2,4       erupt
+odd,3,2,3,3,1       escape
+odd,3,2,3,3,2       essay
+odd,3,2,3,3,3       essence
+odd,3,2,3,3,4       estate
+odd,3,2,3,4,1       eternal
+odd,3,2,3,4,2       ethics
+odd,3,2,3,4,3       evidence
+odd,3,2,3,4,4       evil
+odd,3,2,4,1,1       evoke
+odd,3,2,4,1,2       evolve
+odd,3,2,4,1,3       exact
+odd,3,2,4,1,4       example
+odd,3,2,4,2,1       excess
+odd,3,2,4,2,2       exchange
+odd,3,2,4,2,3       excite
+odd,3,2,4,2,4       exclude
+odd,3,2,4,3,1       excuse
+odd,3,2,4,3,2       execute
+odd,3,2,4,3,3       exercise
+odd,3,2,4,3,4       exhaust
+odd,3,2,4,4,1       exhibit
+odd,3,2,4,4,2       exile
+odd,3,2,4,4,3       exist
+odd,3,2,4,4,4       exit
+odd,3,3,1,1,1       exotic
+odd,3,3,1,1,2       expand
+odd,3,3,1,1,3       expect
+odd,3,3,1,1,4       expire
+odd,3,3,1,2,1       explain
+odd,3,3,1,2,2       expose
+odd,3,3,1,2,3       express
+odd,3,3,1,2,4       extend
+odd,3,3,1,3,1       extra
+odd,3,3,1,3,2       eye
+odd,3,3,1,3,3       eyebrow
+odd,3,3,1,3,4       fabric
+odd,3,3,1,4,1       face
+odd,3,3,1,4,2       faculty
+odd,3,3,1,4,3       fade
+odd,3,3,1,4,4       faint
+odd,3,3,2,1,1       faith
+odd,3,3,2,1,2       fall
+odd,3,3,2,1,3       false
+odd,3,3,2,1,4       fame
+odd,3,3,2,2,1       family
+odd,3,3,2,2,2       famous
+odd,3,3,2,2,3       fan
+odd,3,3,2,2,4       fancy
+odd,3,3,2,3,1       fantasy
+odd,3,3,2,3,2       farm
+odd,3,3,2,3,3       fashion
+odd,3,3,2,3,4       fat
+odd,3,3,2,4,1       fatal
+odd,3,3,2,4,2       father
+odd,3,3,2,4,3       fatigue
+odd,3,3,2,4,4       fault
+odd,3,3,3,1,1       favorite
+odd,3,3,3,1,2       feature
+odd,3,3,3,1,3       february
+odd,3,3,3,1,4       federal
+odd,3,3,3,2,1       fee
+odd,3,3,3,2,2       feed
+odd,3,3,3,2,3       feel
+odd,3,3,3,2,4       female
+odd,3,3,3,3,1       fence
+odd,3,3,3,3,2       festival
+odd,3,3,3,3,3       fetch
+odd,3,3,3,3,4       fever
+odd,3,3,3,4,1       few
+odd,3,3,3,4,2       fiber
+odd,3,3,3,4,3       fiction
+odd,3,3,3,4,4       field
+odd,3,3,4,1,1       figure
+odd,3,3,4,1,2       file
+odd,3,3,4,1,3       film
+odd,3,3,4,1,4       filter
+odd,3,3,4,2,1       final
+odd,3,3,4,2,2       find
+odd,3,3,4,2,3       fine
+odd,3,3,4,2,4       finger
+odd,3,3,4,3,1       finish
+odd,3,3,4,3,2       fire
+odd,3,3,4,3,3       firm
+odd,3,3,4,3,4       first
+odd,3,3,4,4,1       fiscal
+odd,3,3,4,4,2       fish
+odd,3,3,4,4,3       fit
+odd,3,3,4,4,4       fitness
+odd,3,4,1,1,1       fix
+odd,3,4,1,1,2       flag
+odd,3,4,1,1,3       flame
+odd,3,4,1,1,4       flash
+odd,3,4,1,2,1       flat
+odd,3,4,1,2,2       flavor
+odd,3,4,1,2,3       flee
+odd,3,4,1,2,4       flight
+odd,3,4,1,3,1       flip
+odd,3,4,1,3,2       float
+odd,3,4,1,3,3       flock
+odd,3,4,1,3,4       floor
+odd,3,4,1,4,1       flower
+odd,3,4,1,4,2       fluid
+odd,3,4,1,4,3       flush
+odd,3,4,1,4,4       fly
+odd,3,4,2,1,1       foam
+odd,3,4,2,1,2       focus
+odd,3,4,2,1,3       fog
+odd,3,4,2,1,4       foil
+odd,3,4,2,2,1       fold
+odd,3,4,2,2,2       follow
+odd,3,4,2,2,3       food
+odd,3,4,2,2,4       foot
+odd,3,4,2,3,1       force
+odd,3,4,2,3,2       forest
+odd,3,4,2,3,3       forget
+odd,3,4,2,3,4       fork
+odd,3,4,2,4,1       fortune
+odd,3,4,2,4,2       forum
+odd,3,4,2,4,3       forward
+odd,3,4,2,4,4       fossil
+odd,3,4,3,1,1       foster
+odd,3,4,3,1,2       found
+odd,3,4,3,1,3       fox
+odd,3,4,3,1,4       fragile
+odd,3,4,3,2,1       frame
+odd,3,4,3,2,2       frequent
+odd,3,4,3,2,3       fresh
+odd,3,4,3,2,4       friend
+odd,3,4,3,3,1       fringe
+odd,3,4,3,3,2       frog
+odd,3,4,3,3,3       front
+odd,3,4,3,3,4       frost
+odd,3,4,3,4,1       frown
+odd,3,4,3,4,2       frozen
+odd,3,4,3,4,3       fruit
+odd,3,4,3,4,4       fuel
+odd,3,4,4,1,1       fun
+odd,3,4,4,1,2       funny
+odd,3,4,4,1,3       furnace
+odd,3,4,4,1,4       fury
+odd,3,4,4,2,1       future
+odd,3,4,4,2,2       gadget
+odd,3,4,4,2,3       gain
+odd,3,4,4,2,4       galaxy
+odd,3,4,4,3,1       gallery
+odd,3,4,4,3,2       game
+odd,3,4,4,3,3       gap
+odd,3,4,4,3,4       garage
+odd,3,4,4,4,1       garbage
+odd,3,4,4,4,2       garden
+odd,3,4,4,4,3       garlic
+odd,3,4,4,4,4       garment
+odd,4,1,1,1,1       gas
+odd,4,1,1,1,2       gasp
+odd,4,1,1,1,3       gate
+odd,4,1,1,1,4       gather
+odd,4,1,1,2,1       gauge
+odd,4,1,1,2,2       gaze
+odd,4,1,1,2,3       general
+odd,4,1,1,2,4       genius
+odd,4,1,1,3,1       genre
+odd,4,1,1,3,2       gentle
+odd,4,1,1,3,3       genuine
+odd,4,1,1,3,4       gesture
+odd,4,1,1,4,1       ghost
+odd,4,1,1,4,2       giant
+odd,4,1,1,4,3       gift
+odd,4,1,1,4,4       giggle
+odd,4,1,2,1,1       ginger
+odd,4,1,2,1,2       giraffe
+odd,4,1,2,1,3       girl
+odd,4,1,2,1,4       give
+odd,4,1,2,2,1       glad
+odd,4,1,2,2,2       glance
+odd,4,1,2,2,3       glare
+odd,4,1,2,2,4       glass
+odd,4,1,2,3,1       glide
+odd,4,1,2,3,2       glimpse
+odd,4,1,2,3,3       globe
+odd,4,1,2,3,4       gloom
+odd,4,1,2,4,1       glory
+odd,4,1,2,4,2       glove
+odd,4,1,2,4,3       glow
+odd,4,1,2,4,4       glue
+odd,4,1,3,1,1       goat
+odd,4,1,3,1,2       goddess
+odd,4,1,3,1,3       gold
+odd,4,1,3,1,4       good
+odd,4,1,3,2,1       goose
+odd,4,1,3,2,2       gorilla
+odd,4,1,3,2,3       gospel
+odd,4,1,3,2,4       gossip
+odd,4,1,3,3,1       govern
+odd,4,1,3,3,2       gown
+odd,4,1,3,3,3       grab
+odd,4,1,3,3,4       grace
+odd,4,1,3,4,1       grain
+odd,4,1,3,4,2       grant
+odd,4,1,3,4,3       grape
+odd,4,1,3,4,4       grass
+odd,4,1,4,1,1       gravity
+odd,4,1,4,1,2       great
+odd,4,1,4,1,3       green
+odd,4,1,4,1,4       grid
+odd,4,1,4,2,1       grief
+odd,4,1,4,2,2       grit
+odd,4,1,4,2,3       grocery
+odd,4,1,4,2,4       group
+odd,4,1,4,3,1       grow
+odd,4,1,4,3,2       grunt
+odd,4,1,4,3,3       guard
+odd,4,1,4,3,4       guess
+odd,4,1,4,4,1       guide
+odd,4,1,4,4,2       guilt
+odd,4,1,4,4,3       guitar
+odd,4,1,4,4,4       gun
+odd,4,2,1,1,1       gym
+odd,4,2,1,1,2       habit
+odd,4,2,1,1,3       hair
+odd,4,2,1,1,4       half
+odd,4,2,1,2,1       hammer
+odd,4,2,1,2,2       hamster
+odd,4,2,1,2,3       hand
+odd,4,2,1,2,4       happy
+odd,4,2,1,3,1       harbor
+odd,4,2,1,3,2       hard
+odd,4,2,1,3,3       harsh
+odd,4,2,1,3,4       harvest
+odd,4,2,1,4,1       hat
+odd,4,2,1,4,2       have
+odd,4,2,1,4,3       hawk
+odd,4,2,1,4,4       hazard
+odd,4,2,2,1,1       head
+odd,4,2,2,1,2       health
+odd,4,2,2,1,3       heart
+odd,4,2,2,1,4       heavy
+odd,4,2,2,2,1       hedgehog
+odd,4,2,2,2,2       height
+odd,4,2,2,2,3       hello
+odd,4,2,2,2,4       helmet
+odd,4,2,2,3,1       help
+odd,4,2,2,3,2       hen
+odd,4,2,2,3,3       hero
+odd,4,2,2,3,4       hidden
+odd,4,2,2,4,1       high
+odd,4,2,2,4,2       hill
+odd,4,2,2,4,3       hint
+odd,4,2,2,4,4       hip
+odd,4,2,3,1,1       hire
+odd,4,2,3,1,2       history
+odd,4,2,3,1,3       hobby
+odd,4,2,3,1,4       hockey
+odd,4,2,3,2,1       hold
+odd,4,2,3,2,2       hole
+odd,4,2,3,2,3       holiday
+odd,4,2,3,2,4       hollow
+odd,4,2,3,3,1       home
+odd,4,2,3,3,2       honey
+odd,4,2,3,3,3       hood
+odd,4,2,3,3,4       hope
+odd,4,2,3,4,1       horn
+odd,4,2,3,4,2       horror
+odd,4,2,3,4,3       horse
+odd,4,2,3,4,4       hospital
+odd,4,2,4,1,1       host
+odd,4,2,4,1,2       hotel
+odd,4,2,4,1,3       hour
+odd,4,2,4,1,4       hover
+odd,4,2,4,2,1       hub
+odd,4,2,4,2,2       huge
+odd,4,2,4,2,3       human
+odd,4,2,4,2,4       humble
+odd,4,2,4,3,1       humor
+odd,4,2,4,3,2       hundred
+odd,4,2,4,3,3       hungry
+odd,4,2,4,3,4       hunt
+odd,4,2,4,4,1       hurdle
+odd,4,2,4,4,2       hurry
+odd,4,2,4,4,3       hurt
+odd,4,2,4,4,4       husband
+odd,4,3,1,1,1       hybrid
+odd,4,3,1,1,2       ice
+odd,4,3,1,1,3       icon
+odd,4,3,1,1,4       idea
+odd,4,3,1,2,1       identify
+odd,4,3,1,2,2       idle
+odd,4,3,1,2,3       ignore
+odd,4,3,1,2,4       ill
+odd,4,3,1,3,1       illegal
+odd,4,3,1,3,2       illness
+odd,4,3,1,3,3       image
+odd,4,3,1,3,4       imitate
+odd,4,3,1,4,1       immense
+odd,4,3,1,4,2       immune
+odd,4,3,1,4,3       impact
+odd,4,3,1,4,4       impose
+odd,4,3,2,1,1       improve
+odd,4,3,2,1,2       impulse
+odd,4,3,2,1,3       inch
+odd,4,3,2,1,4       include
+odd,4,3,2,2,1       income
+odd,4,3,2,2,2       increase
+odd,4,3,2,2,3       index
+odd,4,3,2,2,4       indicate
+odd,4,3,2,3,1       indoor
+odd,4,3,2,3,2       industry
+odd,4,3,2,3,3       infant
+odd,4,3,2,3,4       inflict
+odd,4,3,2,4,1       inform
+odd,4,3,2,4,2       inhale
+odd,4,3,2,4,3       inherit
+odd,4,3,2,4,4       initial
+odd,4,3,3,1,1       inject
+odd,4,3,3,1,2       injury
+odd,4,3,3,1,3       inmate
+odd,4,3,3,1,4       inner
+odd,4,3,3,2,1       innocent
+odd,4,3,3,2,2       input
+odd,4,3,3,2,3       inquiry
+odd,4,3,3,2,4       insane
+odd,4,3,3,3,1       insect
+odd,4,3,3,3,2       inside
+odd,4,3,3,3,3       inspire
+odd,4,3,3,3,4       install
+odd,4,3,3,4,1       intact
+odd,4,3,3,4,2       interest
+odd,4,3,3,4,3       into
+odd,4,3,3,4,4       invest
+odd,4,3,4,1,1       invite
+odd,4,3,4,1,2       involve
+odd,4,3,4,1,3       iron
+odd,4,3,4,1,4       island
+odd,4,3,4,2,1       isolate
+odd,4,3,4,2,2       issue
+odd,4,3,4,2,3       item
+odd,4,3,4,2,4       ivory
+odd,4,3,4,3,1       jacket
+odd,4,3,4,3,2       jaguar
+odd,4,3,4,3,3       jar
+odd,4,3,4,3,4       jazz
+odd,4,3,4,4,1       jealous
+odd,4,3,4,4,2       jeans
+odd,4,3,4,4,3       jelly
+odd,4,3,4,4,4       jewel
+odd,4,4,1,1,1       job
+odd,4,4,1,1,2       join
+odd,4,4,1,1,3       joke
+odd,4,4,1,1,4       journey
+odd,4,4,1,2,1       joy
+odd,4,4,1,2,2       judge
+odd,4,4,1,2,3       juice
+odd,4,4,1,2,4       jump
+odd,4,4,1,3,1       jungle
+odd,4,4,1,3,2       junior
+odd,4,4,1,3,3       junk
+odd,4,4,1,3,4       just
+odd,4,4,1,4,1       kangaroo
+odd,4,4,1,4,2       keen
+odd,4,4,1,4,3       keep
+odd,4,4,1,4,4       ketchup
+odd,4,4,2,1,1       key
+odd,4,4,2,1,2       kick
+odd,4,4,2,1,3       kid
+odd,4,4,2,1,4       kidney
+odd,4,4,2,2,1       kind
+odd,4,4,2,2,2       kingdom
+odd,4,4,2,2,3       kiss
+odd,4,4,2,2,4       kit
+odd,4,4,2,3,1       kitchen
+odd,4,4,2,3,2       kite
+odd,4,4,2,3,3       kitten
+odd,4,4,2,3,4       kiwi
+odd,4,4,2,4,1       knee
+odd,4,4,2,4,2       knife
+odd,4,4,2,4,3       knock
+odd,4,4,2,4,4       know
+odd,4,4,3,1,1       lab
+odd,4,4,3,1,2       label
+odd,4,4,3,1,3       labor
+odd,4,4,3,1,4       ladder
+odd,4,4,3,2,1       lady
+odd,4,4,3,2,2       lake
+odd,4,4,3,2,3       lamp
+odd,4,4,3,2,4       language
+odd,4,4,3,3,1       laptop
+odd,4,4,3,3,2       large
+odd,4,4,3,3,3       later
+odd,4,4,3,3,4       latin
+odd,4,4,3,4,1       laugh
+odd,4,4,3,4,2       laundry
+odd,4,4,3,4,3       lava
+odd,4,4,3,4,4       law
+odd,4,4,4,1,1       lawn
+odd,4,4,4,1,2       lawsuit
+odd,4,4,4,1,3       layer
+odd,4,4,4,1,4       lazy
+odd,4,4,4,2,1       leader
+odd,4,4,4,2,2       leaf
+odd,4,4,4,2,3       learn
+odd,4,4,4,2,4       leave
+odd,4,4,4,3,1       lecture
+odd,4,4,4,3,2       left
+odd,4,4,4,3,3       leg
+odd,4,4,4,3,4       legal
+odd,4,4,4,4,1       legend
+odd,4,4,4,4,2       leisure
+odd,4,4,4,4,3       lemon
+odd,4,4,4,4,4       lend
+even,1,1,1,1,1       length
+even,1,1,1,1,2       lens
+even,1,1,1,1,3       leopard
+even,1,1,1,1,4       lesson
+even,1,1,1,2,1       letter
+even,1,1,1,2,2       level
+even,1,1,1,2,3       liar
+even,1,1,1,2,4       liberty
+even,1,1,1,3,1       library
+even,1,1,1,3,2       license
+even,1,1,1,3,3       life
+even,1,1,1,3,4       lift
+even,1,1,1,4,1       light
+even,1,1,1,4,2       like
+even,1,1,1,4,3       limb
+even,1,1,1,4,4       limit
+even,1,1,2,1,1       link
+even,1,1,2,1,2       lion
+even,1,1,2,1,3       liquid
+even,1,1,2,1,4       list
+even,1,1,2,2,1       little
+even,1,1,2,2,2       live
+even,1,1,2,2,3       lizard
+even,1,1,2,2,4       load
+even,1,1,2,3,1       loan
+even,1,1,2,3,2       lobster
+even,1,1,2,3,3       local
+even,1,1,2,3,4       lock
+even,1,1,2,4,1       logic
+even,1,1,2,4,2       lonely
+even,1,1,2,4,3       long
+even,1,1,2,4,4       loop
+even,1,1,3,1,1       lottery
+even,1,1,3,1,2       loud
+even,1,1,3,1,3       lounge
+even,1,1,3,1,4       love
+even,1,1,3,2,1       loyal
+even,1,1,3,2,2       lucky
+even,1,1,3,2,3       luggage
+even,1,1,3,2,4       lumber
+even,1,1,3,3,1       lunar
+even,1,1,3,3,2       lunch
+even,1,1,3,3,3       luxury
+even,1,1,3,3,4       lyrics
+even,1,1,3,4,1       machine
+even,1,1,3,4,2       mad
+even,1,1,3,4,3       magic
+even,1,1,3,4,4       magnet
+even,1,1,4,1,1       maid
+even,1,1,4,1,2       mail
+even,1,1,4,1,3       main
+even,1,1,4,1,4       major
+even,1,1,4,2,1       make
+even,1,1,4,2,2       mammal
+even,1,1,4,2,3       man
+even,1,1,4,2,4       manage
+even,1,1,4,3,1       mandate
+even,1,1,4,3,2       mango
+even,1,1,4,3,3       mansion
+even,1,1,4,3,4       manual
+even,1,1,4,4,1       maple
+even,1,1,4,4,2       marble
+even,1,1,4,4,3       march
+even,1,1,4,4,4       margin
+even,1,2,1,1,1       marine
+even,1,2,1,1,2       market
+even,1,2,1,1,3       marriage
+even,1,2,1,1,4       mask
+even,1,2,1,2,1       mass
+even,1,2,1,2,2       master
+even,1,2,1,2,3       match
+even,1,2,1,2,4       material
+even,1,2,1,3,1       math
+even,1,2,1,3,2       matrix
+even,1,2,1,3,3       matter
+even,1,2,1,3,4       maximum
+even,1,2,1,4,1       maze
+even,1,2,1,4,2       meadow
+even,1,2,1,4,3       mean
+even,1,2,1,4,4       measure
+even,1,2,2,1,1       meat
+even,1,2,2,1,2       mechanic
+even,1,2,2,1,3       medal
+even,1,2,2,1,4       media
+even,1,2,2,2,1       melody
+even,1,2,2,2,2       melt
+even,1,2,2,2,3       member
+even,1,2,2,2,4       memory
+even,1,2,2,3,1       mention
+even,1,2,2,3,2       menu
+even,1,2,2,3,3       mercy
+even,1,2,2,3,4       merge
+even,1,2,2,4,1       merit
+even,1,2,2,4,2       merry
+even,1,2,2,4,3       mesh
+even,1,2,2,4,4       message
+even,1,2,3,1,1       metal
+even,1,2,3,1,2       method
+even,1,2,3,1,3       middle
+even,1,2,3,1,4       midnight
+even,1,2,3,2,1       milk
+even,1,2,3,2,2       million
+even,1,2,3,2,3       mimic
+even,1,2,3,2,4       mind
+even,1,2,3,3,1       minimum
+even,1,2,3,3,2       minor
+even,1,2,3,3,3       minute
+even,1,2,3,3,4       miracle
+even,1,2,3,4,1       mirror
+even,1,2,3,4,2       misery
+even,1,2,3,4,3       miss
+even,1,2,3,4,4       mistake
+even,1,2,4,1,1       mix
+even,1,2,4,1,2       mixed
+even,1,2,4,1,3       mixture
+even,1,2,4,1,4       mobile
+even,1,2,4,2,1       model
+even,1,2,4,2,2       modify
+even,1,2,4,2,3       mom
+even,1,2,4,2,4       moment
+even,1,2,4,3,1       monitor
+even,1,2,4,3,2       monkey
+even,1,2,4,3,3       monster
+even,1,2,4,3,4       month
+even,1,2,4,4,1       moon
+even,1,2,4,4,2       moral
+even,1,2,4,4,3       more
+even,1,2,4,4,4       morning
+even,1,3,1,1,1       mosquito
+even,1,3,1,1,2       mother
+even,1,3,1,1,3       motion
+even,1,3,1,1,4       motor
+even,1,3,1,2,1       mountain
+even,1,3,1,2,2       mouse
+even,1,3,1,2,3       move
+even,1,3,1,2,4       movie
+even,1,3,1,3,1       much
+even,1,3,1,3,2       muffin
+even,1,3,1,3,3       mule
+even,1,3,1,3,4       multiply
+even,1,3,1,4,1       muscle
+even,1,3,1,4,2       museum
+even,1,3,1,4,3       mushroom
+even,1,3,1,4,4       music
+even,1,3,2,1,1       must
+even,1,3,2,1,2       mutual
+even,1,3,2,1,3       myself
+even,1,3,2,1,4       mystery
+even,1,3,2,2,1       myth
+even,1,3,2,2,2       naive
+even,1,3,2,2,3       name
+even,1,3,2,2,4       napkin
+even,1,3,2,3,1       narrow
+even,1,3,2,3,2       nasty
+even,1,3,2,3,3       nation
+even,1,3,2,3,4       nature
+even,1,3,2,4,1       near
+even,1,3,2,4,2       neck
+even,1,3,2,4,3       need
+even,1,3,2,4,4       negative
+even,1,3,3,1,1       neglect
+even,1,3,3,1,2       neither
+even,1,3,3,1,3       nephew
+even,1,3,3,1,4       nerve
+even,1,3,3,2,1       nest
+even,1,3,3,2,2       net
+even,1,3,3,2,3       network
+even,1,3,3,2,4       neutral
+even,1,3,3,3,1       never
+even,1,3,3,3,2       news
+even,1,3,3,3,3       next
+even,1,3,3,3,4       nice
+even,1,3,3,4,1       night
+even,1,3,3,4,2       noble
+even,1,3,3,4,3       noise
+even,1,3,3,4,4       nominee
+even,1,3,4,1,1       noodle
+even,1,3,4,1,2       normal
+even,1,3,4,1,3       north
+even,1,3,4,1,4       nose
+even,1,3,4,2,1       notable
+even,1,3,4,2,2       note
+even,1,3,4,2,3       nothing
+even,1,3,4,2,4       notice
+even,1,3,4,3,1       novel
+even,1,3,4,3,2       now
+even,1,3,4,3,3       nuclear
+even,1,3,4,3,4       number
+even,1,3,4,4,1       nurse
+even,1,3,4,4,2       nut
+even,1,3,4,4,3       oak
+even,1,3,4,4,4       obey
+even,1,4,1,1,1       object
+even,1,4,1,1,2       oblige
+even,1,4,1,1,3       obscure
+even,1,4,1,1,4       observe
+even,1,4,1,2,1       obtain
+even,1,4,1,2,2       obvious
+even,1,4,1,2,3       occur
+even,1,4,1,2,4       ocean
+even,1,4,1,3,1       october
+even,1,4,1,3,2       odor
+even,1,4,1,3,3       off
+even,1,4,1,3,4       offer
+even,1,4,1,4,1       office
+even,1,4,1,4,2       often
+even,1,4,1,4,3       oil
+even,1,4,1,4,4       okay
+even,1,4,2,1,1       old
+even,1,4,2,1,2       olive
+even,1,4,2,1,3       olympic
+even,1,4,2,1,4       omit
+even,1,4,2,2,1       once
+even,1,4,2,2,2       one
+even,1,4,2,2,3       onion
+even,1,4,2,2,4       online
+even,1,4,2,3,1       only
+even,1,4,2,3,2       open
+even,1,4,2,3,3       opera
+even,1,4,2,3,4       opinion
+even,1,4,2,4,1       oppose
+even,1,4,2,4,2       option
+even,1,4,2,4,3       orange
+even,1,4,2,4,4       orbit
+even,1,4,3,1,1       orchard
+even,1,4,3,1,2       order
+even,1,4,3,1,3       ordinary
+even,1,4,3,1,4       organ
+even,1,4,3,2,1       orient
+even,1,4,3,2,2       original
+even,1,4,3,2,3       orphan
+even,1,4,3,2,4       ostrich
+even,1,4,3,3,1       other
+even,1,4,3,3,2       outdoor
+even,1,4,3,3,3       outer
+even,1,4,3,3,4       output
+even,1,4,3,4,1       outside
+even,1,4,3,4,2       oval
+even,1,4,3,4,3       oven
+even,1,4,3,4,4       over
+even,1,4,4,1,1       own
+even,1,4,4,1,2       owner
+even,1,4,4,1,3       oxygen
+even,1,4,4,1,4       oyster
+even,1,4,4,2,1       ozone
+even,1,4,4,2,2       pact
+even,1,4,4,2,3       paddle
+even,1,4,4,2,4       page
+even,1,4,4,3,1       pair
+even,1,4,4,3,2       palace
+even,1,4,4,3,3       palm
+even,1,4,4,3,4       panda
+even,1,4,4,4,1       panel
+even,1,4,4,4,2       panic
+even,1,4,4,4,3       panther
+even,1,4,4,4,4       paper
+even,2,1,1,1,1       parade
+even,2,1,1,1,2       parent
+even,2,1,1,1,3       park
+even,2,1,1,1,4       parrot
+even,2,1,1,2,1       party
+even,2,1,1,2,2       pass
+even,2,1,1,2,3       patch
+even,2,1,1,2,4       path
+even,2,1,1,3,1       patient
+even,2,1,1,3,2       patrol
+even,2,1,1,3,3       pattern
+even,2,1,1,3,4       pause
+even,2,1,1,4,1       pave
+even,2,1,1,4,2       payment
+even,2,1,1,4,3       peace
+even,2,1,1,4,4       peanut
+even,2,1,2,1,1       pear
+even,2,1,2,1,2       peasant
+even,2,1,2,1,3       pelican
+even,2,1,2,1,4       pen
+even,2,1,2,2,1       penalty
+even,2,1,2,2,2       pencil
+even,2,1,2,2,3       people
+even,2,1,2,2,4       pepper
+even,2,1,2,3,1       perfect
+even,2,1,2,3,2       permit
+even,2,1,2,3,3       person
+even,2,1,2,3,4       pet
+even,2,1,2,4,1       phone
+even,2,1,2,4,2       photo
+even,2,1,2,4,3       phrase
+even,2,1,2,4,4       physical
+even,2,1,3,1,1       piano
+even,2,1,3,1,2       picnic
+even,2,1,3,1,3       picture
+even,2,1,3,1,4       piece
+even,2,1,3,2,1       pig
+even,2,1,3,2,2       pigeon
+even,2,1,3,2,3       pill
+even,2,1,3,2,4       pilot
+even,2,1,3,3,1       pink
+even,2,1,3,3,2       pioneer
+even,2,1,3,3,3       pipe
+even,2,1,3,3,4       pistol
+even,2,1,3,4,1       pitch
+even,2,1,3,4,2       pizza
+even,2,1,3,4,3       place
+even,2,1,3,4,4       planet
+even,2,1,4,1,1       plastic
+even,2,1,4,1,2       plate
+even,2,1,4,1,3       play
+even,2,1,4,1,4       please
+even,2,1,4,2,1       pledge
+even,2,1,4,2,2       pluck
+even,2,1,4,2,3       plug
+even,2,1,4,2,4       plunge
+even,2,1,4,3,1       poem
+even,2,1,4,3,2       poet
+even,2,1,4,3,3       point
+even,2,1,4,3,4       polar
+even,2,1,4,4,1       pole
+even,2,1,4,4,2       police
+even,2,1,4,4,3       pond
+even,2,1,4,4,4       pony
+even,2,2,1,1,1       pool
+even,2,2,1,1,2       popular
+even,2,2,1,1,3       portion
+even,2,2,1,1,4       position
+even,2,2,1,2,1       possible
+even,2,2,1,2,2       post
+even,2,2,1,2,3       potato
+even,2,2,1,2,4       pottery
+even,2,2,1,3,1       poverty
+even,2,2,1,3,2       powder
+even,2,2,1,3,3       power
+even,2,2,1,3,4       practice
+even,2,2,1,4,1       praise
+even,2,2,1,4,2       predict
+even,2,2,1,4,3       prefer
+even,2,2,1,4,4       prepare
+even,2,2,2,1,1       present
+even,2,2,2,1,2       pretty
+even,2,2,2,1,3       prevent
+even,2,2,2,1,4       price
+even,2,2,2,2,1       pride
+even,2,2,2,2,2       primary
+even,2,2,2,2,3       print
+even,2,2,2,2,4       priority
+even,2,2,2,3,1       prison
+even,2,2,2,3,2       private
+even,2,2,2,3,3       prize
+even,2,2,2,3,4       problem
+even,2,2,2,4,1       process
+even,2,2,2,4,2       produce
+even,2,2,2,4,3       profit
+even,2,2,2,4,4       program
+even,2,2,3,1,1       project
+even,2,2,3,1,2       promote
+even,2,2,3,1,3       proof
+even,2,2,3,1,4       property
+even,2,2,3,2,1       prosper
+even,2,2,3,2,2       protect
+even,2,2,3,2,3       proud
+even,2,2,3,2,4       provide
+even,2,2,3,3,1       public
+even,2,2,3,3,2       pudding
+even,2,2,3,3,3       pull
+even,2,2,3,3,4       pulp
+even,2,2,3,4,1       pulse
+even,2,2,3,4,2       pumpkin
+even,2,2,3,4,3       punch
+even,2,2,3,4,4       pupil
+even,2,2,4,1,1       puppy
+even,2,2,4,1,2       purchase
+even,2,2,4,1,3       purity
+even,2,2,4,1,4       purpose
+even,2,2,4,2,1       purse
+even,2,2,4,2,2       push
+even,2,2,4,2,3       put
+even,2,2,4,2,4       puzzle
+even,2,2,4,3,1       pyramid
+even,2,2,4,3,2       quality
+even,2,2,4,3,3       quantum
+even,2,2,4,3,4       quarter
+even,2,2,4,4,1       question
+even,2,2,4,4,2       quick
+even,2,2,4,4,3       quit
+even,2,2,4,4,4       quiz
+even,2,3,1,1,1       quote
+even,2,3,1,1,2       rabbit
+even,2,3,1,1,3       raccoon
+even,2,3,1,1,4       race
+even,2,3,1,2,1       rack
+even,2,3,1,2,2       radar
+even,2,3,1,2,3       radio
+even,2,3,1,2,4       rail
+even,2,3,1,3,1       rain
+even,2,3,1,3,2       raise
+even,2,3,1,3,3       rally
+even,2,3,1,3,4       ramp
+even,2,3,1,4,1       ranch
+even,2,3,1,4,2       random
+even,2,3,1,4,3       range
+even,2,3,1,4,4       rapid
+even,2,3,2,1,1       rare
+even,2,3,2,1,2       rate
+even,2,3,2,1,3       rather
+even,2,3,2,1,4       raven
+even,2,3,2,2,1       raw
+even,2,3,2,2,2       razor
+even,2,3,2,2,3       ready
+even,2,3,2,2,4       real
+even,2,3,2,3,1       reason
+even,2,3,2,3,2       rebel
+even,2,3,2,3,3       rebuild
+even,2,3,2,3,4       recall
+even,2,3,2,4,1       receive
+even,2,3,2,4,2       recipe
+even,2,3,2,4,3       record
+even,2,3,2,4,4       recycle
+even,2,3,3,1,1       reduce
+even,2,3,3,1,2       reflect
+even,2,3,3,1,3       reform
+even,2,3,3,1,4       refuse
+even,2,3,3,2,1       region
+even,2,3,3,2,2       regret
+even,2,3,3,2,3       regular
+even,2,3,3,2,4       reject
+even,2,3,3,3,1       relax
+even,2,3,3,3,2       release
+even,2,3,3,3,3       relief
+even,2,3,3,3,4       rely
+even,2,3,3,4,1       remain
+even,2,3,3,4,2       remember
+even,2,3,3,4,3       remind
+even,2,3,3,4,4       remove
+even,2,3,4,1,1       render
+even,2,3,4,1,2       renew
+even,2,3,4,1,3       rent
+even,2,3,4,1,4       reopen
+even,2,3,4,2,1       repair
+even,2,3,4,2,2       repeat
+even,2,3,4,2,3       replace
+even,2,3,4,2,4       report
+even,2,3,4,3,1       require
+even,2,3,4,3,2       rescue
+even,2,3,4,3,3       resemble
+even,2,3,4,3,4       resist
+even,2,3,4,4,1       resource
+even,2,3,4,4,2       response
+even,2,3,4,4,3       result
+even,2,3,4,4,4       retire
+even,2,4,1,1,1       retreat
+even,2,4,1,1,2       return
+even,2,4,1,1,3       reunion
+even,2,4,1,1,4       reveal
+even,2,4,1,2,1       review
+even,2,4,1,2,2       reward
+even,2,4,1,2,3       rhythm
+even,2,4,1,2,4       rib
+even,2,4,1,3,1       ribbon
+even,2,4,1,3,2       rice
+even,2,4,1,3,3       rich
+even,2,4,1,3,4       ride
+even,2,4,1,4,1       ridge
+even,2,4,1,4,2       rifle
+even,2,4,1,4,3       right
+even,2,4,1,4,4       rigid
+even,2,4,2,1,1       ring
+even,2,4,2,1,2       riot
+even,2,4,2,1,3       ripple
+even,2,4,2,1,4       risk
+even,2,4,2,2,1       ritual
+even,2,4,2,2,2       rival
+even,2,4,2,2,3       river
+even,2,4,2,2,4       road
+even,2,4,2,3,1       roast
+even,2,4,2,3,2       robot
+even,2,4,2,3,3       robust
+even,2,4,2,3,4       rocket
+even,2,4,2,4,1       romance
+even,2,4,2,4,2       roof
+even,2,4,2,4,3       rookie
+even,2,4,2,4,4       room
+even,2,4,3,1,1       rose
+even,2,4,3,1,2       rotate
+even,2,4,3,1,3       rough
+even,2,4,3,1,4       round
+even,2,4,3,2,1       route
+even,2,4,3,2,2       royal
+even,2,4,3,2,3       rubber
+even,2,4,3,2,4       rude
+even,2,4,3,3,1       rug
+even,2,4,3,3,2       rule
+even,2,4,3,3,3       run
+even,2,4,3,3,4       runway
+even,2,4,3,4,1       rural
+even,2,4,3,4,2       sad
+even,2,4,3,4,3       saddle
+even,2,4,3,4,4       sadness
+even,2,4,4,1,1       safe
+even,2,4,4,1,2       sail
+even,2,4,4,1,3       salad
+even,2,4,4,1,4       salmon
+even,2,4,4,2,1       salon
+even,2,4,4,2,2       salt
+even,2,4,4,2,3       salute
+even,2,4,4,2,4       same
+even,2,4,4,3,1       sample
+even,2,4,4,3,2       sand
+even,2,4,4,3,3       satisfy
+even,2,4,4,3,4       satoshi
+even,2,4,4,4,1       sauce
+even,2,4,4,4,2       sausage
+even,2,4,4,4,3       save
+even,2,4,4,4,4       say
+even,3,1,1,1,1       scale
+even,3,1,1,1,2       scan
+even,3,1,1,1,3       scare
+even,3,1,1,1,4       scatter
+even,3,1,1,2,1       scene
+even,3,1,1,2,2       scheme
+even,3,1,1,2,3       school
+even,3,1,1,2,4       science
+even,3,1,1,3,1       scissors
+even,3,1,1,3,2       scorpion
+even,3,1,1,3,3       scout
+even,3,1,1,3,4       scrap
+even,3,1,1,4,1       screen
+even,3,1,1,4,2       script
+even,3,1,1,4,3       scrub
+even,3,1,1,4,4       sea
+even,3,1,2,1,1       search
+even,3,1,2,1,2       season
+even,3,1,2,1,3       seat
+even,3,1,2,1,4       second
+even,3,1,2,2,1       secret
+even,3,1,2,2,2       section
+even,3,1,2,2,3       security
+even,3,1,2,2,4       seed
+even,3,1,2,3,1       seek
+even,3,1,2,3,2       segment
+even,3,1,2,3,3       select
+even,3,1,2,3,4       sell
+even,3,1,2,4,1       seminar
+even,3,1,2,4,2       senior
+even,3,1,2,4,3       sense
+even,3,1,2,4,4       sentence
+even,3,1,3,1,1       series
+even,3,1,3,1,2       service
+even,3,1,3,1,3       session
+even,3,1,3,1,4       settle
+even,3,1,3,2,1       setup
+even,3,1,3,2,2       seven
+even,3,1,3,2,3       shadow
+even,3,1,3,2,4       shaft
+even,3,1,3,3,1       shallow
+even,3,1,3,3,2       share
+even,3,1,3,3,3       shed
+even,3,1,3,3,4       shell
+even,3,1,3,4,1       sheriff
+even,3,1,3,4,2       shield
+even,3,1,3,4,3       shift
+even,3,1,3,4,4       shine
+even,3,1,4,1,1       ship
+even,3,1,4,1,2       shiver
+even,3,1,4,1,3       shock
+even,3,1,4,1,4       shoe
+even,3,1,4,2,1       shoot
+even,3,1,4,2,2       shop
+even,3,1,4,2,3       short
+even,3,1,4,2,4       shoulder
+even,3,1,4,3,1       shove
+even,3,1,4,3,2       shrimp
+even,3,1,4,3,3       shrug
+even,3,1,4,3,4       shuffle
+even,3,1,4,4,1       shy
+even,3,1,4,4,2       sibling
+even,3,1,4,4,3       sick
+even,3,1,4,4,4       side
+even,3,2,1,1,1       siege
+even,3,2,1,1,2       sight
+even,3,2,1,1,3       sign
+even,3,2,1,1,4       silent
+even,3,2,1,2,1       silk
+even,3,2,1,2,2       silly
+even,3,2,1,2,3       silver
+even,3,2,1,2,4       similar
+even,3,2,1,3,1       simple
+even,3,2,1,3,2       since
+even,3,2,1,3,3       sing
+even,3,2,1,3,4       siren
+even,3,2,1,4,1       sister
+even,3,2,1,4,2       situate
+even,3,2,1,4,3       six
+even,3,2,1,4,4       size
+even,3,2,2,1,1       skate
+even,3,2,2,1,2       sketch
+even,3,2,2,1,3       ski
+even,3,2,2,1,4       skill
+even,3,2,2,2,1       skin
+even,3,2,2,2,2       skirt
+even,3,2,2,2,3       skull
+even,3,2,2,2,4       slab
+even,3,2,2,3,1       slam
+even,3,2,2,3,2       sleep
+even,3,2,2,3,3       slender
+even,3,2,2,3,4       slice
+even,3,2,2,4,1       slide
+even,3,2,2,4,2       slight
+even,3,2,2,4,3       slim
+even,3,2,2,4,4       slogan
+even,3,2,3,1,1       slot
+even,3,2,3,1,2       slow
+even,3,2,3,1,3       slush
+even,3,2,3,1,4       small
+even,3,2,3,2,1       smart
+even,3,2,3,2,2       smile
+even,3,2,3,2,3       smoke
+even,3,2,3,2,4       smooth
+even,3,2,3,3,1       snack
+even,3,2,3,3,2       snake
+even,3,2,3,3,3       snap
+even,3,2,3,3,4       sniff
+even,3,2,3,4,1       snow
+even,3,2,3,4,2       soap
+even,3,2,3,4,3       soccer
+even,3,2,3,4,4       social
+even,3,2,4,1,1       sock
+even,3,2,4,1,2       soda
+even,3,2,4,1,3       soft
+even,3,2,4,1,4       solar
+even,3,2,4,2,1       soldier
+even,3,2,4,2,2       solid
+even,3,2,4,2,3       solution
+even,3,2,4,2,4       solve
+even,3,2,4,3,1       someone
+even,3,2,4,3,2       song
+even,3,2,4,3,3       soon
+even,3,2,4,3,4       sorry
+even,3,2,4,4,1       sort
+even,3,2,4,4,2       soul
+even,3,2,4,4,3       sound
+even,3,2,4,4,4       soup
+even,3,3,1,1,1       source
+even,3,3,1,1,2       south
+even,3,3,1,1,3       space
+even,3,3,1,1,4       spare
+even,3,3,1,2,1       spatial
+even,3,3,1,2,2       spawn
+even,3,3,1,2,3       speak
+even,3,3,1,2,4       special
+even,3,3,1,3,1       speed
+even,3,3,1,3,2       spell
+even,3,3,1,3,3       spend
+even,3,3,1,3,4       sphere
+even,3,3,1,4,1       spice
+even,3,3,1,4,2       spider
+even,3,3,1,4,3       spike
+even,3,3,1,4,4       spin
+even,3,3,2,1,1       spirit
+even,3,3,2,1,2       split
+even,3,3,2,1,3       spoil
+even,3,3,2,1,4       sponsor
+even,3,3,2,2,1       spoon
+even,3,3,2,2,2       sport
+even,3,3,2,2,3       spot
+even,3,3,2,2,4       spray
+even,3,3,2,3,1       spread
+even,3,3,2,3,2       spring
+even,3,3,2,3,3       spy
+even,3,3,2,3,4       square
+even,3,3,2,4,1       squeeze
+even,3,3,2,4,2       squirrel
+even,3,3,2,4,3       stable
+even,3,3,2,4,4       stadium
+even,3,3,3,1,1       staff
+even,3,3,3,1,2       stage
+even,3,3,3,1,3       stairs
+even,3,3,3,1,4       stamp
+even,3,3,3,2,1       stand
+even,3,3,3,2,2       start
+even,3,3,3,2,3       state
+even,3,3,3,2,4       stay
+even,3,3,3,3,1       steak
+even,3,3,3,3,2       steel
+even,3,3,3,3,3       stem
+even,3,3,3,3,4       step
+even,3,3,3,4,1       stereo
+even,3,3,3,4,2       stick
+even,3,3,3,4,3       still
+even,3,3,3,4,4       sting
+even,3,3,4,1,1       stock
+even,3,3,4,1,2       stomach
+even,3,3,4,1,3       stone
+even,3,3,4,1,4       stool
+even,3,3,4,2,1       story
+even,3,3,4,2,2       stove
+even,3,3,4,2,3       strategy
+even,3,3,4,2,4       street
+even,3,3,4,3,1       strike
+even,3,3,4,3,2       strong
+even,3,3,4,3,3       struggle
+even,3,3,4,3,4       student
+even,3,3,4,4,1       stuff
+even,3,3,4,4,2       stumble
+even,3,3,4,4,3       style
+even,3,3,4,4,4       subject
+even,3,4,1,1,1       submit
+even,3,4,1,1,2       subway
+even,3,4,1,1,3       success
+even,3,4,1,1,4       such
+even,3,4,1,2,1       sudden
+even,3,4,1,2,2       suffer
+even,3,4,1,2,3       sugar
+even,3,4,1,2,4       suggest
+even,3,4,1,3,1       suit
+even,3,4,1,3,2       summer
+even,3,4,1,3,3       sun
+even,3,4,1,3,4       sunny
+even,3,4,1,4,1       sunset
+even,3,4,1,4,2       super
+even,3,4,1,4,3       supply
+even,3,4,1,4,4       supreme
+even,3,4,2,1,1       sure
+even,3,4,2,1,2       surface
+even,3,4,2,1,3       surge
+even,3,4,2,1,4       surprise
+even,3,4,2,2,1       surround
+even,3,4,2,2,2       survey
+even,3,4,2,2,3       suspect
+even,3,4,2,2,4       sustain
+even,3,4,2,3,1       swallow
+even,3,4,2,3,2       swamp
+even,3,4,2,3,3       swap
+even,3,4,2,3,4       swarm
+even,3,4,2,4,1       swear
+even,3,4,2,4,2       sweet
+even,3,4,2,4,3       swift
+even,3,4,2,4,4       swim
+even,3,4,3,1,1       swing
+even,3,4,3,1,2       switch
+even,3,4,3,1,3       sword
+even,3,4,3,1,4       symbol
+even,3,4,3,2,1       symptom
+even,3,4,3,2,2       syrup
+even,3,4,3,2,3       system
+even,3,4,3,2,4       table
+even,3,4,3,3,1       tackle
+even,3,4,3,3,2       tag
+even,3,4,3,3,3       tail
+even,3,4,3,3,4       talent
+even,3,4,3,4,1       talk
+even,3,4,3,4,2       tank
+even,3,4,3,4,3       tape
+even,3,4,3,4,4       target
+even,3,4,4,1,1       task
+even,3,4,4,1,2       taste
+even,3,4,4,1,3       tattoo
+even,3,4,4,1,4       taxi
+even,3,4,4,2,1       teach
+even,3,4,4,2,2       team
+even,3,4,4,2,3       tell
+even,3,4,4,2,4       ten
+even,3,4,4,3,1       tenant
+even,3,4,4,3,2       tennis
+even,3,4,4,3,3       tent
+even,3,4,4,3,4       term
+even,3,4,4,4,1       test
+even,3,4,4,4,2       text
+even,3,4,4,4,3       thank
+even,3,4,4,4,4       that
+even,4,1,1,1,1       theme
+even,4,1,1,1,2       then
+even,4,1,1,1,3       theory
+even,4,1,1,1,4       there
+even,4,1,1,2,1       they
+even,4,1,1,2,2       thing
+even,4,1,1,2,3       this
+even,4,1,1,2,4       thought
+even,4,1,1,3,1       three
+even,4,1,1,3,2       thrive
+even,4,1,1,3,3       throw
+even,4,1,1,3,4       thumb
+even,4,1,1,4,1       thunder
+even,4,1,1,4,2       ticket
+even,4,1,1,4,3       tide
+even,4,1,1,4,4       tiger
+even,4,1,2,1,1       tilt
+even,4,1,2,1,2       timber
+even,4,1,2,1,3       time
+even,4,1,2,1,4       tiny
+even,4,1,2,2,1       tip
+even,4,1,2,2,2       tired
+even,4,1,2,2,3       tissue
+even,4,1,2,2,4       title
+even,4,1,2,3,1       toast
+even,4,1,2,3,2       tobacco
+even,4,1,2,3,3       today
+even,4,1,2,3,4       toddler
+even,4,1,2,4,1       toe
+even,4,1,2,4,2       together
+even,4,1,2,4,3       toilet
+even,4,1,2,4,4       token
+even,4,1,3,1,1       tomato
+even,4,1,3,1,2       tomorrow
+even,4,1,3,1,3       tone
+even,4,1,3,1,4       tongue
+even,4,1,3,2,1       tonight
+even,4,1,3,2,2       tool
+even,4,1,3,2,3       tooth
+even,4,1,3,2,4       top
+even,4,1,3,3,1       topic
+even,4,1,3,3,2       topple
+even,4,1,3,3,3       torch
+even,4,1,3,3,4       tornado
+even,4,1,3,4,1       tortoise
+even,4,1,3,4,2       toss
+even,4,1,3,4,3       total
+even,4,1,3,4,4       tourist
+even,4,1,4,1,1       toward
+even,4,1,4,1,2       tower
+even,4,1,4,1,3       town
+even,4,1,4,1,4       toy
+even,4,1,4,2,1       track
+even,4,1,4,2,2       trade
+even,4,1,4,2,3       traffic
+even,4,1,4,2,4       tragic
+even,4,1,4,3,1       train
+even,4,1,4,3,2       transfer
+even,4,1,4,3,3       trap
+even,4,1,4,3,4       trash
+even,4,1,4,4,1       travel
+even,4,1,4,4,2       tray
+even,4,1,4,4,3       treat
+even,4,1,4,4,4       tree
+even,4,2,1,1,1       trend
+even,4,2,1,1,2       trial
+even,4,2,1,1,3       tribe
+even,4,2,1,1,4       trick
+even,4,2,1,2,1       trigger
+even,4,2,1,2,2       trim
+even,4,2,1,2,3       trip
+even,4,2,1,2,4       trophy
+even,4,2,1,3,1       trouble
+even,4,2,1,3,2       truck
+even,4,2,1,3,3       true
+even,4,2,1,3,4       truly
+even,4,2,1,4,1       trumpet
+even,4,2,1,4,2       trust
+even,4,2,1,4,3       truth
+even,4,2,1,4,4       try
+even,4,2,2,1,1       tube
+even,4,2,2,1,2       tuition
+even,4,2,2,1,3       tumble
+even,4,2,2,1,4       tuna
+even,4,2,2,2,1       tunnel
+even,4,2,2,2,2       turkey
+even,4,2,2,2,3       turn
+even,4,2,2,2,4       turtle
+even,4,2,2,3,1       twelve
+even,4,2,2,3,2       twenty
+even,4,2,2,3,3       twice
+even,4,2,2,3,4       twin
+even,4,2,2,4,1       twist
+even,4,2,2,4,2       two
+even,4,2,2,4,3       type
+even,4,2,2,4,4       typical
+even,4,2,3,1,1       ugly
+even,4,2,3,1,2       umbrella
+even,4,2,3,1,3       unable
+even,4,2,3,1,4       unaware
+even,4,2,3,2,1       uncle
+even,4,2,3,2,2       uncover
+even,4,2,3,2,3       under
+even,4,2,3,2,4       undo
+even,4,2,3,3,1       unfair
+even,4,2,3,3,2       unfold
+even,4,2,3,3,3       unhappy
+even,4,2,3,3,4       uniform
+even,4,2,3,4,1       unique
+even,4,2,3,4,2       unit
+even,4,2,3,4,3       universe
+even,4,2,3,4,4       unknown
+even,4,2,4,1,1       unlock
+even,4,2,4,1,2       until
+even,4,2,4,1,3       unusual
+even,4,2,4,1,4       unveil
+even,4,2,4,2,1       update
+even,4,2,4,2,2       upgrade
+even,4,2,4,2,3       uphold
+even,4,2,4,2,4       upon
+even,4,2,4,3,1       upper
+even,4,2,4,3,2       upset
+even,4,2,4,3,3       urban
+even,4,2,4,3,4       urge
+even,4,2,4,4,1       usage
+even,4,2,4,4,2       use
+even,4,2,4,4,3       used
+even,4,2,4,4,4       useful
+even,4,3,1,1,1       useless
+even,4,3,1,1,2       usual
+even,4,3,1,1,3       utility
+even,4,3,1,1,4       vacant
+even,4,3,1,2,1       vacuum
+even,4,3,1,2,2       vague
+even,4,3,1,2,3       valid
+even,4,3,1,2,4       valley
+even,4,3,1,3,1       valve
+even,4,3,1,3,2       van
+even,4,3,1,3,3       vanish
+even,4,3,1,3,4       vapor
+even,4,3,1,4,1       various
+even,4,3,1,4,2       vast
+even,4,3,1,4,3       vault
+even,4,3,1,4,4       vehicle
+even,4,3,2,1,1       velvet
+even,4,3,2,1,2       vendor
+even,4,3,2,1,3       venture
+even,4,3,2,1,4       venue
+even,4,3,2,2,1       verb
+even,4,3,2,2,2       verify
+even,4,3,2,2,3       version
+even,4,3,2,2,4       very
+even,4,3,2,3,1       vessel
+even,4,3,2,3,2       veteran
+even,4,3,2,3,3       viable
+even,4,3,2,3,4       vibrant
+even,4,3,2,4,1       vicious
+even,4,3,2,4,2       victory
+even,4,3,2,4,3       video
+even,4,3,2,4,4       view
+even,4,3,3,1,1       village
+even,4,3,3,1,2       vintage
+even,4,3,3,1,3       violin
+even,4,3,3,1,4       virtual
+even,4,3,3,2,1       virus
+even,4,3,3,2,2       visa
+even,4,3,3,2,3       visit
+even,4,3,3,2,4       visual
+even,4,3,3,3,1       vital
+even,4,3,3,3,2       vivid
+even,4,3,3,3,3       vocal
+even,4,3,3,3,4       voice
+even,4,3,3,4,1       void
+even,4,3,3,4,2       volcano
+even,4,3,3,4,3       volume
+even,4,3,3,4,4       vote
+even,4,3,4,1,1       voyage
+even,4,3,4,1,2       wage
+even,4,3,4,1,3       wagon
+even,4,3,4,1,4       wait
+even,4,3,4,2,1       walk
+even,4,3,4,2,2       wall
+even,4,3,4,2,3       walnut
+even,4,3,4,2,4       want
+even,4,3,4,3,1       warfare
+even,4,3,4,3,2       warm
+even,4,3,4,3,3       warrior
+even,4,3,4,3,4       wash
+even,4,3,4,4,1       wasp
+even,4,3,4,4,2       waste
+even,4,3,4,4,3       water
+even,4,3,4,4,4       wave
+even,4,4,1,1,1       way
+even,4,4,1,1,2       wealth
+even,4,4,1,1,3       weapon
+even,4,4,1,1,4       wear
+even,4,4,1,2,1       weasel
+even,4,4,1,2,2       weather
+even,4,4,1,2,3       web
+even,4,4,1,2,4       wedding
+even,4,4,1,3,1       weekend
+even,4,4,1,3,2       weird
+even,4,4,1,3,3       welcome
+even,4,4,1,3,4       west
+even,4,4,1,4,1       wet
+even,4,4,1,4,2       whale
+even,4,4,1,4,3       what
+even,4,4,1,4,4       wheat
+even,4,4,2,1,1       wheel
+even,4,4,2,1,2       when
+even,4,4,2,1,3       where
+even,4,4,2,1,4       whip
+even,4,4,2,2,1       whisper
+even,4,4,2,2,2       wide
+even,4,4,2,2,3       width
+even,4,4,2,2,4       wife
+even,4,4,2,3,1       wild
+even,4,4,2,3,2       will
+even,4,4,2,3,3       win
+even,4,4,2,3,4       window
+even,4,4,2,4,1       wine
+even,4,4,2,4,2       wing
+even,4,4,2,4,3       wink
+even,4,4,2,4,4       winner
+even,4,4,3,1,1       winter
+even,4,4,3,1,2       wire
+even,4,4,3,1,3       wisdom
+even,4,4,3,1,4       wise
+even,4,4,3,2,1       wish
+even,4,4,3,2,2       witness
+even,4,4,3,2,3       wolf
+even,4,4,3,2,4       woman
+even,4,4,3,3,1       wonder
+even,4,4,3,3,2       wood
+even,4,4,3,3,3       wool
+even,4,4,3,3,4       word
+even,4,4,3,4,1       work
+even,4,4,3,4,2       world
+even,4,4,3,4,3       worry
+even,4,4,3,4,4       worth
+even,4,4,4,1,1       wrap
+even,4,4,4,1,2       wreck
+even,4,4,4,1,3       wrestle
+even,4,4,4,1,4       wrist
+even,4,4,4,2,1       write
+even,4,4,4,2,2       wrong
+even,4,4,4,2,3       yard
+even,4,4,4,2,4       year
+even,4,4,4,3,1       yellow
+even,4,4,4,3,2       you
+even,4,4,4,3,3       young
+even,4,4,4,3,4       youth
+even,4,4,4,4,1       zebra
+even,4,4,4,4,2       zero
+even,4,4,4,4,3       zone
+even,4,4,4,4,4       zoo
